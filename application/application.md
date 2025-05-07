@@ -42,13 +42,13 @@ This harmonisation effort will significantly benefit UK research by providing a 
 
 Our team is uniquely positioned to harmonise the epinowcast ecosystem, as we are the original creators and maintainers of both the epinowcast and epiforecasts package collections. This gives us comprehensive understanding of both ecosystems, a clear vision for unification under the epinowcast umbrella, and practical experience in migrating and harmonising related packages.
 
-The project will be led by Sam Abbott, who has developed widely-used packages across both organisations, with installs exceeding 50,000. Sam brings extensive experience working with multiple public health agencies including UKHSA, CDC, and ECDC, and has successfully managed the transition of several tools between frameworks.
+The project will be led by Sam Abbott, who has developed packages in both organisations and runs the epinowcast community. He brings extensive experience working with public health agencies including UKHSA, CDC, and ECDC, and has successfully managed the integration of the primarycensored backend into the ecosystem.
 
 We will employ a dedicated Research Software Engineer with expertise in R package development to implement harmonisation strategies and develop shared components. This role is critical for addressing technical debt while maintaining service to existing users.
 
 Sebastian Funk will provide strategic guidance and stakeholder management. His experience leading large-scale infectious disease modelling efforts will ensure our technical direction aligns with evolving research and public health needs.
 
-Our team already maintains active connections with both contributor communities and institutional users spanning both package ecosystems. This positions us ideally to unify governance models, standardise development practices, and create a sustainable framework for future growth and maintenance of these essential public health tools.
+Our team has established robust contribution pathways across both package ecosystems. All packages have detailed contribution guides, active GitHub discussion pages, and the epinowcast forum facilitates broader community engagement. We have a strong track record of converting users into contributors through accessible onboarding processes and responsive maintainer support, with core tools like epinowcast and EpiNow2 having 20+ contributors each.
 
 # Benefit to UK research
 
@@ -59,9 +59,11 @@ This project will deliver significant value to UK research by harmonising critic
 
 UK public health agencies currently rely on these tools for nowcasting infectious diseases including COVID-19, influenza, and norovirus. The harmonised ecosystem will enable more robust outbreak response capabilities for emerging threats and facilitate research into reporting delays and biases in surveillance systems.
 
+Academic researchers use our tools extensively for methodological comparison and validation. For example, scoringutils is widely used for evaluating forecast models, while EpiNow2 has been instrumental in evaluating methods like EpiFusion (Judge 2024) and viral load based approaches (Hay et al 2021). This cross-method validation is crucial for advancing epidemiological research.
+
 The project aligns with key UK research priorities around pandemic preparedness, health data science infrastructure, and methodological innovation in infectious disease modelling. By reducing duplication and inconsistencies between tools, we will enable more efficient knowledge transfer between research groups and institutions.
 
-Examples of research enabled by this harmonised ecosystem include real-time situational awareness during outbreaks, comparative analyses across multiple diseases, seamless integration of nowcasting and forecasting, and combined modelling of reporting delays with transmission dynamics. UK researchers will benefit from standardised approaches to evaluate interventions and integrate diverse data streams, including clinical, genomic, and wastewater surveillance data.
+Examples of research enabled by this ecosystem include real-time situational awareness during outbreaks, comparative analyses across multiple diseases, seamless integration of nowcasting and forecasting, and combined modelling of reporting delays with transmission dynamics. UK researchers will benefit from standardised approaches to evaluate interventions and integrate diverse data streams, including clinical, genomic, and wastewater surveillance data.
 
 # Landscape analysis
 
@@ -72,9 +74,11 @@ The infectious disease modelling landscape features two main approaches: pipelin
 
 Within our ecosystem, EpiNow2 has approximately 50,000 downloads and is widely used by health agencies, while epinowcast is emerging as the next-generation solution. The scoringutils package has become the standard for forecast evaluation across multiple international initiatives. This fragmentation across organisations with overlapping functionality creates inefficiencies and barriers to adoption.
 
-Other open-source alternatives include EpiEstim, which offers simpler functionality but faster computation; Epidemia, which provides comprehensive features but has seen dormant development; and EpiMap, which has limited traction. Proprietary solutions exist but often lack flexibility for adaptation to new threats, have accessibility barriers for low-resource settings, and present challenges with transparency and reproducibility.
+All our packages have progressed beyond the prototype stage. EpiNow2, scoringutils, primarycensored, and socialmixr are available on CRAN with stable releases, all past version 1.0 and with 3-5+ years of active development. Epinowcast and epidist, though not on CRAN due to a cmdstanr dependence, have had multiple stable releases aqnd are past version 1.0. All packages have multiple contributors (5+ for smaller packages, 20+ for core tools like epinowcast and EpiNow2).
 
-Our software uniquely bridges pipeline flexibility with joint modelling rigour, balancing methodological sophistication with user accessibility. The proposed harmonisation will create a unified ecosystem that maintains this balance while reducing redundancy and confusion. By standardising interfaces and processes, we will also facilitate easier integration with other modelling frameworks, strengthening the entire infectious disease modelling landscape.
+Other open-source alternatives include EpiEstim, which offers simpler functionality but faster computation; Epidemia, which provides comprehensive features but has seen dormant development; and EpiMap, which has limited traction.
+
+Our software uniquely bridges pipeline flexibility with joint modelling rigour, balancing methodological sophistication with user accessibility. All packages are MIT licensed, making them fully open source and accessible for both research and commercial applications. The proposed harmonisation will create a unified ecosystem that maintains this balance while reducing redundancy and confusion. By standardising interfaces and processes, we will also facilitate easier integration with other modelling frameworks, strengthening the entire infectious disease modelling landscape.
 
 # Measure of impact (optional)
 
@@ -89,7 +93,7 @@ User adoption: We will monitor package downloads, GitHub stars/forks, citations 
 
 Community health: We will assess the number of active contributors, geographic and institutional diversity of contributors, first-time contributor conversions, and community forum engagement. We will particularly focus on contributors spanning previously separate tools.
 
-Governance and sustainability: We will track the establishment of a single governance structure for the entire epinowcast ecosystem, implementation of clear onboarding processes for new packages and contributors, development of a unified roadmap, and progress toward NumFocus affiliated project status.
+Governance and sustainability: We will track the establishment of a single governance structure for the entire epinowcast ecosystem, implementation of clear onboarding processes for new packages and contributors, and development of a unified roadmap. Post-funding sustainability will be ensured by significantly decreasing the maintenance burden through standardised interfaces and reduced technical debt, empowering contributors through improved governance, and continuing our established practice of integrating ongoing research with software development to ensure relevance and funding opportunities. By expanding our user base through improved discoverability and documentation, we'll also create a broader pool of potential contributors and institutional stakeholders with interest in maintaining these critical public health tools.
 
 These metrics will be collected continuously and reported quarterly throughout the project, with baseline measurements established at project initiation. This comprehensive approach will ensure we can demonstrate both technical improvements and broader ecosystem health.
 
