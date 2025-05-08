@@ -74,11 +74,17 @@ The infectious disease modelling landscape features two main approaches: pipelin
 
 Within our ecosystem, EpiNow2 has approximately 50,000 downloads and is widely used by health agencies, while epinowcast is emerging as the next-generation solution. The scoringutils package has become the standard for forecast evaluation across multiple international initiatives. This fragmentation across organisations with overlapping functionality creates inefficiencies and barriers to adoption.
 
-All our packages have progressed beyond the prototype stage. EpiNow2, scoringutils, primarycensored, and socialmixr are available on CRAN with stable releases, all past version 1.0 and with 3-5+ years of active development. Epinowcast and epidist, though not on CRAN due to a cmdstanr dependence, have had multiple stable releases aqnd are past version 1.0. All packages have multiple contributors (5+ for smaller packages, 20+ for core tools like epinowcast and EpiNow2).
+All our packages have progressed beyond the prototype stage. EpiNow2, scoringutils, primarycensored, and socialmixr are available on CRAN with stable releases, all past version 1.0 and with 3-5+ years of active development. Epinowcast and epidist, though not on CRAN due to a cmdstanr dependence, have had multiple stable releases and are past version 1.0. All packages have multiple contributors (5+ for smaller packages, 20+ for core tools like epinowcast and EpiNow2).
 
-Other open-source alternatives include EpiEstim, which offers simpler functionality but faster computation; Epidemia, which provides comprehensive features but has seen dormant development; and EpiMap, which has limited traction.
+For real-time estimation tools, EpiEstim attracts a significant user base, especially those newer to the field. It offers simpler functionality but faster computation, with methodological limitations due to its design as a pure R package and use of conjugate priors. Epidemia provides comprehensive features for modelling infectious disease dynamics by integrating multiple data sources but has seen dormant development for the past two years. EpiMap integrates population flows to model transmission across areas but has limited traction with no significant user base.
 
-Our software uniquely bridges pipeline flexibility with joint modelling rigour, balancing methodological sophistication with user accessibility. All packages are MIT licensed, making them fully open source and accessible for both research and commercial applications. The proposed harmonisation will create a unified ecosystem that maintains this balance while reducing redundancy and confusion. By standardising interfaces and processes, we will also facilitate easier integration with other modelling frameworks, strengthening the entire infectious disease modelling landscape.
+For delay distribution estimation tools, [PLACEHOLDER: comparison with other delay estimation packages]
+
+For contact matrix tools, [PLACEHOLDER: comparison with other contact matrix packages]
+
+For forecast evaluation tools, [PLACEHOLDER: comparison with other scoring/evaluation packages]
+
+Our software uniquely bridges pipeline flexibility with joint modelling rigour, balancing methodological sophistication with user accessibility. All packages are MIT licensed, making them fully open source and accessible for both research and commercial applications. The proposed harmonisation will create a unified ecosystem that maintains this balance while reducing redundancy and confusion.
 
 # Measure of impact (optional)
 
