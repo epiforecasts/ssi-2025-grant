@@ -1,6 +1,6 @@
 # Application name
 
-Standardising and formalising the epinowcast ecosystem
+Unifying, harmonising, and establishing sustainable governance for the epinowcast/epiforecast infectious disease modelling ecosystem
 
 # Project details
 
@@ -13,17 +13,25 @@ Large Award: 2 years duration, up to £500,000 budget
 *0 / 500 words*
 *Please provide a short summary of the work being proposed. Please note that this summary may be publicly published - do not include any confidential information.* 
 
-Infectious disease modelling tools from the epinowcast and epiforecast ecosystems are currently used by major public health agencies including UKHSA, WHO, CDC, and ECDC for situtational awareness of COVID-19, influenza, norovirus, and other infectious diseases. These tools enable real-time situational awareness during outbreaks, and for rountine surveillance. They are regularly used by UK researchers for methodological validation, for example scoringutils has become the standard for infectious disease forecast evaluation and EpiNow2 is commonly used rfor evaluating methods like EpiFusion and viral load approaches. Lower level tools from our ecosystem such as primarycensored and epidist are used by researchers to estimate delays as part of larger research projects.
+Despite widespread usage by public health agencies and researchers, our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and distributed maintenance burden. These tools, including EpiNow2, epinowcast, scoringutils, primarycensored, epidist, and socialmixr, are currently used by major public health agencies including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by numerous research groups, yet their fragmentation creates barriers to adoption and inefficiencies.
 
-However, these tools are fragmented across the epinowcast and epiforecasts organisations. Many were developed rapidly during the COVID-19 pandemic and now face challenges of inconsistent interfaces, overlapping functionality, and distributed maintenance burden, creating barriers to adoption and inefficiencies. Whilst the epinowcast organisation has an existing community element, including a forum and seminar series, neither project has formal governance or systematic methods for supporting external contributors.
+Most of these packages were developed rapidly during the COVID-19 pandemic, prioritising immediate utility over long-term sustainability. Users now struggle to discover and apply appropriate methods, while developers face significant technical debt and duplicated maintenance efforts. The ecosystem lacks clear governance and contribution pathways that would allow it to grow beyond its current developers and evolve to match user needs. Without intervention, these challenges will continue to limit the impact and sustainability of these valuable tools.
 
-This project aims to harmonise packages across both organisations, creating a unified framework under the epinowcast ecosystem. We will migrate key epiforecasts packages into the epinowcast organisation, establish standardised governance, and implement common interfaces and shared components. Our focus will be on creating a sustainable infrastructure that allows for future package onboarding and integration.
+This project will unify, harmonise, and establish sustainable governance for the epinowcast/epiforecasts ecosystem of infectious disease modelling tools. We will systematically address the current challenges through six key activities:
 
-Specifically, we will harmonise core epinowcast packages (epinowcast, baselinenowcast, primarycensored, epidist) with key epiforecasts packages (EpiNow2, scoringutils, socialmixr), whilst developing integration layers with Julia-based probabilistic programming tools. This work will address technical debt accumulated during rapid development, standardise interfaces between packages, and implement common backends for shared functionality.
+1. Unifying the fragmented R packages across organisations to reduce duplication, standardise interfaces, and decrease maintenance burden by creating a coherent ecosystem.
 
-By unifying the ecosystem, we will provide users with simplified package discovery, consistent interfaces, clear migration paths from legacy tools, and unified documentation and support channels. The project will create formal governance structures and community-building initiatives, including monthly developer meetings, user-centred design approaches, and improved onboarding processes for contributors.
+2. Establishing formal governance structures to support sustainable maintenance, facilitate clear decision-making, and enable broader community participation.
 
-This harmonisation effort will significantly benefit UK research by providing a more robust, maintainable set of tools for infectious disease modelling, enabling more effective public health response to both routine surveillance and emerging threats.
+3. Harmonising core packages to improve interoperability and reduce technical debt.
+
+4. Implementing shared components and common backends to decrease code duplication, enable future integration with next-generation probabilistic programming frameworks such as Turing.jl, and create sustainable pathways for maintenance.
+
+5. Developing contribution guides, user-centred documentation, and onboarding materials to expand our contributor pool and distribute maintenance responsibility across a diverse community.
+
+6. Creating user-friendly migration paths and case studies to support existing users transitioning from legacy tools and ensure accessibility for users in both high-resource and low-resource settings.
+
+Through these activities, we will create a unified, sustainable ecosystem with standardised interfaces, shared modular components, and formal governance structures that enable both current maintainers and new contributors to collaborate effectively. The result will be a more coherent, maintainable set of tools for infectious disease modelling, enabling more effective response to both routine surveillance and emerging threats across diverse global settings.
 
 # Categories of work
 
@@ -40,22 +48,20 @@ This harmonisation effort will significantly benefit UK research by providing a 
 *0 / 250 words*
 *Briefly describe why your team is the appropriate one to carry out these activities. You will be asked to provide details of the Project Lead and Co-Leads on the Team Details page, along with their connection to the software.*
 
-Our team is uniquely positioned to harmonise the epinowcast ecosystem, as we are the original creators and maintainers of both the epinowcast and epiforecasts package collections. This gives us comprehensive understanding of both ecosystems, a clear vision for unification under the epinowcast umbrella, and practical experience in migrating and harmonising related packages.
+Our team brings expertise in developing, maintaining, and advancing the tools this project seeks to harmonise. As the original creators and active maintainers of the epinowcast and epiforecasts package ecosystems, we have unique understanding of both the code and the communities that rely on these tools.
 
-The project will be led by Sam Abbott, who has developed packages in both organisations and runs the epinowcast community. He brings extensive experience working with public health agencies including UKHSA, CDC, and ECDC, and has successfully managed the integration of the primarycensored backend into the ecosystem.
+The project will be led by Dr. Sam Abbott, who founded the epinowcast community and developed key packages in both organisations. With extensive experience working with public health agencies including UKHSA, CDC, and ECDC, Sam has demonstrated success in translating methodological innovations into accessible tools. He has a proven track record of building inclusive communities through the epinowcast initiative, which now includes over 50 researchers and practitioners globally. His technical expertise in real-time epidemiological analysis, combined with his commitment to open science and collaborative development, makes him uniquely qualified to lead this harmonisation effort.
 
-We will employ a dedicated Research Software Engineer with expertise in R package development to implement harmonisation strategies and develop shared components. This role is critical for addressing technical debt while maintaining service to existing users.
+Professor Sebastian Funk will provide strategic guidance and stakeholder management. As Director of the Centre for Mathematical Modelling of Infectious Diseases (CMMID) at LSHTM and a Wellcome Senior Research Fellow, Sebastian brings extensive leadership experience and a global network of collaborators in public health institutions. He has successfully led multiple open-source software development projects, including socialmixr and rbi, and has mentored numerous early-career researchers to independence.
 
-Sebastian Funk will provide strategic guidance and stakeholder management. His experience leading large-scale infectious disease modelling efforts will ensure our technical direction aligns with evolving research and public health needs.
-
-Our team has established robust contribution pathways across both package ecosystems. All packages have detailed contribution guides, active GitHub discussion pages, and the epinowcast forum facilitates broader community engagement. We have a strong track record of converting users into contributors through accessible onboarding processes and responsive maintainer support, with core tools like epinowcast and EpiNow2 having 20+ contributors each.
+Together, our team has established robust contribution pathways across both package ecosystems, with contribution guides, active community forums, and support channels. Core tools like epinowcast and EpiNow2 each have 20+ contributors, demonstrating our ability to convert users into active community members. By combining Sam's expertise in modern software development practices and community building with Sebastian's strategic vision and mentorship, we are ideally positioned to create a sustainable, unified ecosystem that serves both current and future needs of the infectious disease modelling community.
 
 # Benefit to UK research
 
 *0 / 250 words*
 *Briefly describe the expected value of the proposed work to UK research. You may wish to describe the fields of research or types of research method the software is used in, and describe the benefits to a particular community. You may also want to give examples of what research is enabled by the software.*
 
-This project will deliver significant value to UK research by harmonising critical infectious disease modelling tools currently used by UKHSA, academic epidemiology groups, and NHS planning teams. By unifying tools across the epinowcast ecosystem, we will provide UK researchers with a simplified, more consistent toolchain that reduces learning curves and technical overhead.
+This project will deliver significant value to UK research by harmonising critical infectious disease modelling tools currently used by UKHSA, academic epidemiology groups, and other organisations. We need to address the fragmentation of infectious disease modelling tools across our organisations so that users can discover and apply appropriate methods without confusion.
 
 UK public health agencies currently rely on these tools for nowcasting infectious diseases including COVID-19, influenza, and norovirus. The harmonised ecosystem will enable more robust outbreak response capabilities for emerging threats and facilitate research into reporting delays and biases in surveillance systems.
 
@@ -83,6 +89,8 @@ For delay distribution estimation tools, [PLACEHOLDER: comparison with other del
 For contact matrix tools, [PLACEHOLDER: comparison with other contact matrix packages]
 
 For forecast evaluation tools, [PLACEHOLDER: comparison with other scoring/evaluation packages]
+
+In the broader ecosystem, our work complements initiatives like Epiverse-TRACE, which focuses on implementing existing outbreak analysis methods in R for non-expert users. While Epiverse focuses on accessibility for non-experts, our approach prioritises methodological innovation and integration for advanced users while maintaining accessibility. [PLACEHOLDER: further comparison with Epiverse and other ecosystems]
 
 Our software uniquely bridges pipeline flexibility with joint modelling rigour, balancing methodological sophistication with user accessibility. All packages are MIT licensed, making them fully open source and accessible for both research and commercial applications. The proposed harmonisation will create a unified ecosystem that maintains this balance while reducing redundancy and confusion.
 
