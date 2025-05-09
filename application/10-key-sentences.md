@@ -2,18 +2,18 @@ following https://parkerderrington.com/key-sentence-skeletons/
 
 # Implementation key sentences
 
-1. We will unify the fragmented R packages across epinowcast and epiforecasts organisations into a single, coherent ecosystem in order to reduce duplication, standardise interfaces, and decrease maintenance burden.
-2. We will establish formal governance structures for the unified ecosystem in order to support sustainable maintenance, facilitate clearer decision-making, and enable broader community participation.
-3. We will harmonise core packages (epinowcast, baselinenowcast, EpiNow2, scoringutils, primarycensored, epidist, socialmixr) in order to improve interoperability and reduce technical debt.
-4. We will implement shared components and common backends across packages in order to decrease code duplication, enable future integration with modern probabilistic programming frameworks, and create sustainable pathways for future maintenance.
-5. We will develop comprehensive contribution guides, user-centred documentation, and onboarding materials in order to expand our contributor pool and distribute maintenance responsibility across a more diverse community.
-6. We will create user-friendly migration paths and case studies in order to support existing users to transition from legacy tools while ensuring accessibility for users in both high-resource and low-resource settings.
+1. We will unify the fragmented R packages across epinowcast and epiforecasts organisations to reduce duplication, standardise interfaces, and decrease maintenance burden by creating a coherent ecosystem.
+2. We will establish formal governance structures for the unified ecosystem to support sustainable maintenance, facilitate clear decision-making, and enable broader community participation.
+3. We will harmonise core packages (epinowcast, baselinenowcast, EpiNow2, scoringutils, primarycensored, epidist, socialmixr) to improve interoperability and reduce technical debt.
+4. We will implement shared components and common backends across packages to decrease code duplication, enable future integration with next-generation probabilistic programming frameworks such as Turing.jl, and create sustainable pathways for maintenance.
+5. We will develop contribution guides, user-centred documentation, and onboarding materials to expand our contributor pool and distribute maintenance responsibility across a diverse community.
+6. We will create user-friendly migration paths and case studies to support existing users transitioning from legacy tools and ensure accessibility for users in both high-resource and low-resource settings.
 
 # Problem key sentences
 
 1. We need to address the fragmentation of infectious disease modelling tools across our organisations so that users can discover and apply appropriate methods without confusion.
 2. We need to standardise interfaces between packages developed during the pandemic so that we can reduce technical debt and improve maintainability.
-3. We need to establish clear governance and contribution pathways so that the ecosystem can sustainably grow beyond its current developers and evolve to match the needs of users.
+3. We need to establish clear governance and contribution pathways so that the ecosystem can grow beyond its current developers and evolve to match the needs of users.
 4. We need to reduce code duplication across packages with overlapping functionality so that maintenance burden is decreased and bugs are not fixed multiple times.
 5. We need to provide unified documentation and support channels so that users can efficiently learn and apply tools for their research and public health needs.
 6. We need to create infrastructure that supports community-driven packages and diverse contributors so that the ecosystem can continue to evolve and incorporate innovations from a broad range of users.
@@ -24,11 +24,11 @@ The project will unify, harmonise, and establish sustainable governance for the 
 
 # Importance key sentence
 
-Despite widespread usage by public health agencies and researchers, our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and distributed maintenance burdens, creating barriers to adoption and inefficiencies.
+Despite widespread usage by public health agencies and researchers, our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and distributed maintenance burden, creating barriers to adoption and inefficiencies.
 
 # Promise key sentence
 
-This project aims to create a unified, sustainable ecosystem with standardised interfaces, shared modular components, and formal governance structures that enable both current maintainers and new contributors to effectively collaborate.
+This project will create a unified, sustainable ecosystem with standardised interfaces, shared modular components, and formal governance structures that enable both current maintainers and new contributors to collaborate.
 
 # Next key sentence
 
