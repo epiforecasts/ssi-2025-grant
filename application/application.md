@@ -88,23 +88,16 @@ The project aligns with key UK research priorities around pandemic preparedness,
 *0 / 250 words*
 *Briefly describe the other software (either proprietary or open source) that is primarily used by the research community addressed by the work in this proposal. Summarise, to the best of your knowledge, how the software in this proposal compares to these other software in terms of user base size, usage, and maturity. Describe, if appropriate, how the other software interacts with the software in this proposal.*
 
-The infectious disease modelling landscape features two main approaches: pipeline approaches that combine separate models, and joint modelling approaches offering more integrated but less flexible solutions. Our software spans both approaches but is currently fragmented across two GitHub organisations (epinowcast and epiforecasts), creating confusion for users.
+Our core packages have progressed beyond the prototype stage with multiple releases. EpiNow2, scoringutils, and primarycensored are on CRAN, while epinowcast and epidist have multiple stable releases despite not being on CRAN due to dependencies. All packages have multiple contributors (5+ for smaller packages, 20+ for core tools), 1-5 years of active development, and are past version 1.0. Downloads vary between 2000 and 50,000. All packages are used by multiple public health agencies and research groups.
 
-Within our ecosystem, EpiNow2 has approximately 50,000 downloads and is widely used by health agencies, while epinowcast is emerging as the next-generation solution. The scoringutils package has become the standard for forecast evaluation across multiple international initiatives. This fragmentation across organisations with overlapping functionality creates inefficiencies and barriers to adoption.
+For real-time estimation, EpiEstim has a significant user base, offering simpler functionality but with methodological limitations. Its user base tends to be less sophisticated and it is less widely used at public health agencies than our tools.
+Epidemia provides comprehensive features but has seen dormant development for two years. EpiMap has limited traction despite integrating population flows and again is dormant.
 
-All our packages have progressed beyond the prototype stage. EpiNow2, scoringutils, primarycensored, and socialmixr are available on CRAN with stable releases, all past version 1.0 and with 3-5+ years of active development. Epinowcast and epidist, though not on CRAN due to a cmdstanr dependence, have had multiple stable releases and are past version 1.0. All packages have multiple contributors (5+ for smaller packages, 20+ for core tools like epinowcast and EpiNow2).
+For delay distribution estimation, our packages improve upon existing options like fitdistrplus (high downloads but biased methods for outbreak data) and discrete (no active development for 5+ years and biased methods).
 
-For real-time estimation tools, EpiEstim attracts a significant user base, especially those newer to the field. It offers simpler functionality but faster computation, with methodological limitations due to its design as a pure R package and use of conjugate priors. Epidemia provides comprehensive features for modelling infectious disease dynamics by integrating multiple data sources but has seen dormant development for the past two years. EpiMap integrates population flows to model transmission across areas but has limited traction with no significant user base.
+For forecast evaluation, scoringRules provides the statistical foundation that scoringutils builds upon, but lacks epidemiological focus. No other significant tools exist specifically for forecast evaluation in infectious disease modelling.
 
-For delay distribution estimation tools, [PLACEHOLDER: comparison with other delay estimation packages]
-
-For contact matrix tools, [PLACEHOLDER: comparison with other contact matrix packages]
-
-For forecast evaluation tools, [PLACEHOLDER: comparison with other scoring/evaluation packages]
-
-In the broader ecosystem, our work complements initiatives like Epiverse-TRACE, which focuses on implementing existing outbreak analysis methods in R for non-expert users. While Epiverse focuses on accessibility for non-experts, our approach prioritises methodological innovation and integration for advanced users while maintaining accessibility. [PLACEHOLDER: further comparison with Epiverse and other ecosystems]
-
-Our software uniquely bridges pipeline flexibility with joint modelling rigour, balancing methodological sophistication with user accessibility. All packages are MIT licensed, making them fully open source and accessible for both research and commercial applications. The proposed harmonisation will create a unified ecosystem that maintains this balance while reducing redundancy and confusion.
+Our work differs from initiatives like Epiverse-TRACE by prioritising methodological innovation and integration for advanced users while maintaining accessibility. Our tools demonstrate higher user engagement metrics and more external contributors.
 
 # Measure of impact (optional)
 
