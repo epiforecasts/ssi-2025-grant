@@ -107,15 +107,28 @@ Our software uniquely bridges pipeline flexibility with joint modelling rigour, 
 *0 / 250 words*
 *Briefly describe how you would measure the impact of the proposed work. You may have existing measures that you use, or you may propose new measures. For the Expression of Interest we are looking to understand how you would approach this, and what you think is important to measure. In the full application, you will be asked to define specific measures.*
 
-We will measure impact across four key dimensions:
+We will measure impact across four key dimensions with specific metrics for each:
 
-Technical improvements: We will track reduction in reported bugs, improved test coverage across packages, decreased resolution time for critical issues, and performance improvements for key operations. We will also measure the reduction in duplicated code across packages and the implementation of shared interfaces and components.
+1. Technical improvements:
+   - Increased test coverage
+   - Decreased resolution time for critical issues
+   - Number of shared components implemented
+   - Successful implementation of standardised interfaces
 
-User adoption: We will monitor package downloads, GitHub stars/forks, citations in academic literature, and adoption by public health agencies. Specifically, we will track users successfully migrating from legacy to harmonised tools and reduced support requests due to inconsistencies.
+2. User adoption:
+   - Downloads
+   - GitHub engagement (GitHub stars, issues, and pull requests)
+   - Academic citations
+   - Public health agency adoption. We would track this based on personal communication with the agency and/or publicly available information.
 
-Community health: We will assess the number of active contributors, geographic and institutional diversity of contributors, first-time contributor conversions, and community forum engagement. We will particularly focus on contributors spanning previously separate tools.
+3. Community health:
+   - Number of active contributors. We would track this based on GitHub activity using the API.
+   - First-time contributor conversion rate. Measured based on the number of first-time contributors who go on to make a second contribution.
+   - Community forum engagement. Active members based on page visits and posts.
+   - Contributors spanning multiple packages. We would track this based on GitHub activity using the API and aim for an increase in contributors working on multiple packages.
 
-Governance and sustainability: We will track the establishment of a single governance structure for the entire epinowcast ecosystem, implementation of clear onboarding processes for new packages and contributors, and development of a unified roadmap. Post-funding sustainability will be ensured by significantly decreasing the maintenance burden through standardised interfaces and reduced technical debt, empowering contributors through improved governance, and continuing our established practice of integrating ongoing research with software development to ensure relevance and funding opportunities. By expanding our user base through improved discoverability and documentation, we'll also create a broader pool of potential contributors and institutional stakeholders with interest in maintaining these critical public health tools.
+4. Governance and sustainability:
+   - Number of community members securing independent funding to contribute to the ecosystem.
+   - Number of community-driven packages integrated into ecosystem.
 
-These metrics will be collected continuously and reported quarterly throughout the project, with baseline measurements established at project initiation. This comprehensive approach will ensure we can demonstrate both technical improvements and broader ecosystem health.
-
+We will assess these metrics both overall and by package where it makes sense to do so. These metrics will be tracked, with baseline measurements established at project start. We already collect many of these metrics in an ad-hoc manner, but this project will establish a unified process.
