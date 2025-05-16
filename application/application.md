@@ -91,7 +91,7 @@ The project aligns with key UK research priorities around pandemic preparedness,
 Our core packages have progressed beyond the prototype stage with multiple releases. EpiNow2, scoringutils, and primarycensored are on CRAN, while epinowcast and epidist have multiple stable releases despite not being on CRAN due to dependencies. All packages have multiple contributors (5+ for smaller packages, 20+ for core tools), 1-5 years of active development, and are past version 1.0. Downloads vary between 2000 and 50,000. All packages are used by multiple public health agencies and research groups.
 
 For real-time estimation, EpiEstim has a significant user base, offering simpler functionality but with methodological limitations. Its user base tends to be less sophisticated and it is less widely used at public health agencies than our tools.
-Epidemia provides comprehensive features but has seen dormant development for two years. EpiMap has limited traction despite integrating population flows and again is dormant.
+Epidemia provides comprehensive features but has been dormant for three years. EpiMap has limited traction despite integrating population flows and again is dormant.
 
 For delay distribution estimation, our packages improve upon existing options like fitdistrplus (high downloads but biased methods for outbreak data) and discrete (no active development for 5+ years and biased methods).
 
