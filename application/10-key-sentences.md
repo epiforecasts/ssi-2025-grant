@@ -2,21 +2,22 @@ following https://parkerderrington.com/key-sentence-skeletons/
 
 # Implementation key sentences
 
-1. We will unify the fragmented R packages across epinowcast and epiforecasts organisations to reduce duplication, standardise interfaces, and decrease maintenance burden by creating a coherent ecosystem.
-2. We will establish formal governance structures for the unified ecosystem to support sustainable maintenance, facilitate clear decision-making, and enable broader community participation.
-3. We will harmonise core packages (epinowcast, baselinenowcast, EpiNow2, scoringutils, primarycensored, epidist, socialmixr) to improve interoperability and reduce technical debt.
-4. We will implement shared components and common backends across packages to decrease code duplication, enable future integration with next-generation probabilistic programming frameworks such as Turing.jl, and create sustainable pathways for maintenance.
-5. We will develop contribution guides, user-centred documentation, and onboarding materials to expand our contributor pool and distribute maintenance responsibility across a diverse community.
-6. We will create user-friendly migration paths and case studies to support existing users transitioning from legacy tools and ensure accessibility for users in both high-resource and low-resource settings.
+1. We will create a single entry point for R packages across epinowcast and epiforecasts organisations to creating a coherent ecosystem with clear signposts for users.
+2. We will seek user and developer feedback on the divergent interfaces across packages in order to standardise interfaces.
+3. We will establish formal governance structures for the unified ecosystem to support sustainable maintenance, facilitate clear decision-making, and enable broader community participation.
+4. We will reduce code duplication across packages to improve interoperability and reduce technical debt.
+6. We will implement shared components and common backends across packages to  enable future integration with next-generation probabilistic programming frameworks such as Turing.jl, and create sustainable pathways for maintenance.
+7. We will develop contribution guides, user-centred documentation, and onboarding materials to expand our contributor pool and distribute maintenance responsibility across a diverse community.
+8. We will create infrastructure that facilitates communication across the ecosystem in oder to support community-driven packages and diverse contributors.
 
 # Problem key sentences
 
 1. We need to address the fragmentation of infectious disease modelling tools across our organisations so that users can discover and apply appropriate methods without confusion.
-2. We need to standardise interfaces between packages developed during the pandemic so that we can reduce technical debt and improve maintainability.
+2. We need to standardise interfaces between packages developed during the pandemic so that we can reduce technical debt and improve the user experience.
 3. We need to establish clear governance and contribution pathways so that the ecosystem can grow beyond its current developers and evolve to match the needs of users.
 4. We need to reduce code duplication across packages with overlapping functionality so that maintenance burden is decreased and bugs are not fixed multiple times.
 5. We need to provide unified documentation and support channels so that users can efficiently learn and apply tools for their research and public health needs.
-6. We need to create infrastructure that supports community-driven packages and diverse contributors so that the ecosystem can continue to evolve and incorporate innovations from a broad range of users.
+6. We need to support community-driven packages and diverse contributors so that the ecosystem can continue to evolve and incorporate innovations from a broad range of users.
 
 # Project key sentence
 
