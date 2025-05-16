@@ -13,9 +13,9 @@ Large Award: 2 years duration, up to £500,000 budget
 *0 / 500 words*
 *Please provide a short summary of the work being proposed. Please note that this summary may be publicly published - do not include any confidential information.* 
 
-Despite widespread usage by public health agencies and researchers, our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and distributed maintenance burden, creating barriers to adoption and inefficiencies. These tools, including EpiNow2, epinowcast, scoringutils, primarycensored, and epidist, are currently used by major public health agencies including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by numerous research groups. Collectively they have been downloaded over 100,000 times with 200+ stars on GitHub and have been cited in over 100 academic papers.
+Despite widespread usage by public health agencies and researchers, our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and distributed maintenance burden, creating barriers to adoption and inefficiencies. These tools, including EpiNow2, epinowcast, scoringutils, primarycensored, and epidist, are currently used by major public health agencies including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by numerous research groups. Collectively they have been downloaded 100,000+ times with 200+ stars on GitHub and have been cited in over 100 academic papers.
 
-Many of these packages were developed rapidly during the COVID-19 pandemic, prioritising immediate utility over long-term sustainability. Users now struggle to discover and apply appropriate methods, while developers face significant technical debt and duplicated maintenance efforts. The ecosystem lacks clear governance and contribution pathways that would allow it to grow beyond its current developers and evolve to match user needs. Without intervention, these challenges will continue to limit the impact and sustainability of these valuable tools.
+Many of these packages were developed rapidly during the COVID-19 pandemic, prioritising utility over long-term sustainability. Users now struggle to discover and apply appropriate methods, while developers face significant technical debt and duplicated maintenance efforts. The ecosystem lacks clear governance and contribution pathways that would allow it onboard new developers and evolve to match user needs. Without intervention, these challenges will limit the impact and sustainability of these valuable tools.
 
 This project will unify, harmonise, and establish sustainable governance for the epinowcast/epiforecasts ecosystem of infectious disease modelling tools. We will systematically address the current challenges through the following key activities:
 
@@ -37,7 +37,9 @@ This project will unify, harmonise, and establish sustainable governance for the
 
 9. Running two targeted workshops: one focused on onboarding new developers to contribute to the ecosystem, and another dedicated to training new users in effectively applying our tools for infectious disease modelling.
 
-Through these activities, we will provide public health agencies and researchers with a more coherent, maintainable set of tools for infectious disease modelling, enabling more effective response to both routine surveillance and emerging threats across diverse global settings.
+An example specific activity is the development of primarycensored (2,500+ downloads) to handle key biases in delay distributions. This module is integrated into epidist and will soon be integrated into EpiNow2, and epinowcast leading to reduced duplication of effort and improved functionality. Our project will identify additional shared components like distribution interfaces, latent models, and preprocessing steps that can be implemented once and reused across packages, reducing maintenance burden, improving functionality, and enabling greater collaboration.
+
+Through the activities in this project, we will provide public health agencies and researchers with a more coherent, maintainable set of tools for infectious disease modelling, enabling more effective response to both routine surveillance and emerging threats across diverse global settings.
 
 # Categories of work
 
@@ -67,16 +69,15 @@ Our team has established contribution pathways across both ecosystems, with guid
 *0 / 250 words*
 *Briefly describe the expected value of the proposed work to UK research. You may wish to describe the fields of research or types of research method the software is used in, and describe the benefits to a particular community. You may also want to give examples of what research is enabled by the software.*
 
-This project will deliver significant value to UK research by harmonising critical infectious disease modelling tools currently used by UKHSA, academic epidemiology groups, and other organisations. We need to address the fragmentation of infectious disease modelling tools across our organisations so that users can discover, apply, and contribute to appropriate methods without confusion.
+This project will deliver significant value to UK research by harmonising critical infectious disease modelling tools currently used by UKHSA, academic groups, and organisations. We need to address the fragmentation of infectious disease modelling tools across our organisations so that users can discover, apply, and contribute to appropriate methods.
 
-UK public health agencies currently rely on these tools for nowcasting infectious diseases including COVID-19, influenza, and norovirus. The harmonised ecosystem will enable more robust outbreak response capabilities for emerging threats and facilitate research into reporting delays and biases in surveillance systems.
+UK public health agencies currently use these tools to support outbreak response and surveillance for infectious diseases including COVID-19, influenza, and norovirus. The harmonised ecosystem will enable more robust outbreak response capabilities for emerging threats and facilitate research into reporting delays and biases in surveillance systems.
 
-Academic researchers use our tools extensively for methodological comparison and validation. For example, scoringutils is widely used for evaluating forecast models, EpiNow2 has been used for evaluating methods like EpiFusion (Judge 2024) and viral load based approaches (Hay et al 2021), and epinowcast has been used to evaluate methods for nowcasting (Mellor 2024). This cross-method validation is crucial for advancing epidemiological research.
+Researchers use our tools for methodological comparison and validation. For example, scoringutils is widely used for evaluating forecast models, EpiNow2 has been used for evaluating methods like EpiFusion (Judge et al. 2024) and viral load based approaches (Hay et al. 2021), and epinowcast has been used to evaluate methods for nowcasting (Mellor et al. 2024). This cross-method validation is crucial for advancing epidemiological research.
 
-Aside from method validation, examples of research enabled by this ecosystem include real-time situational awareness during outbreaks and robust estimation of reporting delays in surveillance systems. By simplifying the handling of complex surveillance data, our tools make sophisticated modelling more accessible, allowing researchers to focus more on epidemiological questions rather than data challenges.
+Other examples of research enabled by this ecosystem include real-time situational awareness during outbreaks and robust estimation of reporting delays in surveillance systems. By simplifying the handling of complex surveillance data, our tools make sophisticated modelling more accessible, allowing researchers to focus more on epidemiological questions rather than data challenges.
 
 The project aligns with key UK research priorities around pandemic preparedness, health data science infrastructure, and methodological innovation. By reducing duplication and inconsistencies between tools, we will enable more efficient knowledge transfer between research groups and institutions.
-
 
 # Landscape analysis
 
