@@ -7,7 +7,7 @@ following https://parkerderrington.com/key-sentence-skeletons/
 2. We will establish formal governance structures for the unified ecosystem in order to support sustainable maintenance, facilitate decision making, and enable broader community participation.
 3. We will reduce code duplication across packages in order to improve interoperability and reduce technical debt.
 4. We will implement shared components and common backends across packages in order to enable future integration with next-generation probabilistic programming frameworks such as Turing.jl and create sustainable pathways for maintenance.
-5. We will develop contribution guides and onboarding materials in order to expand our contributor pool and distribute maintenance responsibility across a diverse community.
+5. We will improve contribution guides and onboarding materials in order to expand our contributor pool and distribute maintenance responsibility across a wider community.
 6. We will create infrastructure that facilitates communication across the ecosystem in oder to support community-driven packages and diverse contributors.
 
 # Problem key sentences
