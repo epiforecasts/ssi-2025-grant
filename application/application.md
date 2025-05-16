@@ -56,13 +56,17 @@ Through the activities in this project, we will provide public health agencies a
 *0 / 250 words*
 *Briefly describe why your team is the appropriate one to carry out these activities. You will be asked to provide details of the Project Lead and Co-Leads on the Team Details page, along with their connection to the software.*
 
-Our team brings expertise in developing and maintaining the tools this project seeks to harmonise. As creators and maintainers of the epinowcast and epiforecasts ecosystems, we understand both the code and communities that rely on these tools.
+Our team created and maintains the tools this project seeks to harmonise, giving us unique understanding of both the code and communities that rely on these tools.
 
-The project will be led by Dr. Sam Abbott, founder of the epinowcast community and developer of key packages in both organisations. With experience working with UKHSA, CDC, and ECDC, Sam has successfully translated methodological innovations into accessible tools. He has built inclusive communities through the epinowcast initiative, which includes over 50 researchers globally. His expertise in real-time epidemiological analysis and commitment to open science makes him qualified to lead this effort.
+Dr. Sam Abbott will lead the project at 100% FTE. As founder of the epinowcast community and developer of key packages across both organisations, Sam has translated methodological innovations into accessible tools used by UKHSA, CDC, and ECDC. He has built the epinowcast community to include over 50 researchers globally, demonstrating his ability to foster inclusive collaboration.
 
-Professor Sebastian Funk will provide strategic guidance and stakeholder management. As Director of CMMID at LSHTM and a Wellcome Senior Research Fellow, Sebastian brings leadership experience and a global network of collaborators. He has led multiple open-source software projects, including socialmixr and rbi.
+Professor Sebastian Funk will provide strategic guidance at a fractional FTE. As Director of CMMID at LSHTM and a Wellcome Senior Research Fellow, Sebastian brings leadership experience and public health networks. He has led multiple open-source software projects, including socialmixr and rbi.
 
-Our team has established contribution pathways across both ecosystems, with guides, forums, and support channels. Core tools like epinowcast and EpiNow2 each have 20+ contributors, showing our ability to convert users into community members. Combining Sam's expertise in software development and community building with Sebastian's vision, we are positioned to create a sustainable ecosystem serving current and future needs of the infectious disease modelling community.
+We have established contribution pathways with guides, forums, and support channels across both ecosystems. Core tools like epinowcast and EpiNow2 each have 20+ contributors, showing our ability to convert users into community members. This demonstrates our capacity to scale the community further through improved governance and documentation.
+
+The team will also include a senior research software engineer who will implement technical aspects of unification, interface standardisation, and code deduplication, delivering the technical improvements that form the foundation of this project.
+
+By combining Sam's expertise in software development and community building with Sebastian's strategic vision and dedicated technical resources, we are positioned to create a sustainable ecosystem serving current and future needs of the infectious disease modelling community.
 
 # Benefit to UK research
 
