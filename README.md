@@ -1,7 +1,7 @@
 # Timeline
 
-- [ ] Finalise 10 key sentences (by 15 May)
-- [ ] Improve application draft (by 16 May)
+- [x] Finalise 10 key sentences (by 15 May)
+- [x] Improve application draft (by 16 May)
 - [ ] Get feedback to the application (by 19 May)
 - [ ] Incorporate feedback to the application (by 20 May)
 - [ ] Get all contributor statements ready (by 20 May)
