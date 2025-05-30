@@ -13,9 +13,9 @@ Large Award: 2 years duration, up to £500,000 budget
 *0 / 500 words*
 *Please provide a short summary of the work being proposed. Please note that this summary may be publicly published - do not include any confidential information.* 
 
-Our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and distributed maintenance burden, creating barriers to adoption and inefficiencies. These tools, including EpiNow2, epinowcast, scoringutils, primarycensored, and epidist, are currently used by major public health agencies including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by mutliple independent research groups. Collectively they have been downloaded 100,000+ times with 200+ stars on GitHub and have been cited in over 100 academic papers.
+Our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and a distributed maintenance burden, creating barriers to adoption and inefficiencies. These tools, including EpiNow2, epinowcast, scoringutils, primarycensored, and epidist, are currently used by major public health agencies, including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by multiple independent research groups. Collectively, they have been downloaded 100,000+ times with 200+ stars on GitHub and have been cited in over 100 academic papers.
 
-Many of these packages were developed rapidly during the COVID-19 pandemic, prioritising utility over long-term sustainability. Users now struggle to discover and apply appropriate methods, while developers face significant technical debt and duplicated maintenance efforts. The ecosystem lacks clear governance and contribution pathways that would allow it onboard new developers and evolve to match user needs. Without intervention, these challenges will limit the impact and sustainability of these valuable tools.
+Many of these packages were developed rapidly during the COVID-19 pandemic, prioritising utility over long-term sustainability. Users struggle to discover and apply appropriate methods, while developers face significant technical debt and duplicated maintenance efforts. The ecosystem lacks clear governance and contribution pathways that would allow it onboard new developers and evolve to match user needs. Without intervention, these challenges will limit the impact and sustainability of these valuable tools.
 
 This project will unify, harmonise, and establish sustainable governance for the epinowcast/epiforecasts ecosystem of infectious disease modelling tools. We will systematically address the current challenges through the following key activities:
 
@@ -39,7 +39,7 @@ This project will unify, harmonise, and establish sustainable governance for the
 
 An example specific activity is the development of primarycensored (2,500+ downloads) to handle key biases in delay distributions. This module is integrated into epidist and will soon be integrated into EpiNow2, and epinowcast leading to reduced duplication of effort and improved functionality. Our project will identify additional shared components like distribution interfaces, latent models, and preprocessing steps that can be implemented once and reused across packages, reducing maintenance burden, improving functionality, and enabling greater collaboration.
 
-Through the activities in this project, we will provide public health agencies and researchers with a more coherent, maintainable set of tools for infectious disease modelling, enabling more effective response to both routine surveillance and emerging threats across diverse global settings.
+Through the activities in this project, we will provide public health agencies and researchers with a more coherent, maintainable set of tools for infectious disease modelling, enabling more effective responses to both routine surveillance and emerging threats across diverse global settings.
 
 # Categories of work
 
