@@ -39,7 +39,7 @@ The project directly addresses the sustainability challenges facing these widely
 
 ## Software to be maintained
 
-*Enter the name(s) of the software that will be supported with this funding. If more than one, please separate with commas.*
+epinowcast, primarycensored, baselinenowcast, epidist, scoringutils, socialmixr, EpiNow2
 
 ## Code repository (optional) 
 
@@ -131,16 +131,54 @@ R, Stan
 
 # Capability to deliver
 
-*Provide evidence of how you and your team have:*
+## Relevant Experience
 
-- *the relevant experience (appropriate to career stage) to deliver the objectives*
-- *the right balance of skills and expertise to cover the proposed work*
-- *the appropriate leadership and management skills to ensure delivery*
-- *contributed to developing good practice in your communities*
+Our team created and maintains the tools this project seeks to harmonise, giving us unique understanding of both the code and communities that rely on these tools.
 
-*Where applicable, discuss your approach to developing others.*
+Dr. Sam Abbott will lead the project at 100% FTE.
+As founder of the epinowcast community and developer of key packages across both organisations, Sam has translated methodological innovations into accessible tools used by UKHSA, CDC, and ECDC.
+His track record includes leading development of EpiNow2 (downloaded over 50,000 times), creating the epinowcast ecosystem, and developing primarycensored as a shared component that exemplifies our unification approach.
+Sam has successfully managed the transition of research software from pandemic-driven rapid development to sustainable long-term maintenance, directly addressing the challenges this project seeks to resolve.
 
-*1000 words*
+Professor Sebastian Funk will provide strategic guidance at a fractional FTE.
+As Director of CMMID at LSHTM and a Wellcome Senior Research Fellow, Sebastian brings leadership experience and public health networks essential for achieving our objectives.
+He has led multiple open-source software projects, including socialmixr and rbi, demonstrating his ability to guide complex software ecosystems to maturity.
+
+## Balance of Skills and Expertise
+
+Our team composition directly maps to the five categories of work: technical, community, documentation, training, and governance.
+Sam brings expertise in R package development, Stan modelling, and software architecture, while our planned senior research software engineer will provide specialised technical implementation skills.
+Sebastian's networks in public health and infectious disease modelling provide access to user communities whose needs will drive our harmonisation efforts.
+
+We have established contribution pathways with guides, forums, and support channels across both ecosystems.
+Core tools like epinowcast and EpiNow2 each have 20+ contributors, showing our ability to convert users into community members.
+This demonstrates our capacity to scale the community further through improved governance and documentation.
+
+## Leadership and Management Skills
+
+Sam's leadership capabilities are demonstrated through successful management of the epinowcast ecosystem, coordinating development across multiple packages.
+He has built the epinowcast community to include over 50 researchers globally, demonstrating his ability to foster inclusive collaboration.
+
+Sebastian provides strategic leadership through directing a major research centre with over 40 academic staff and coordinating international collaborations.
+His experience managing large, multi-institutional projects provides oversight skills necessary for delivery across our technical and community objectives.
+
+## Contributing to Good Practice
+
+We have established open development practices across both organisations, including transparent contribution guidelines, and code review processes.
+Sam has contributed to good practice through developing methodologies for sustainable research software development, including community building and technical debt management.
+Sebastian has contributed through policy development and advocacy for research software sustainability within the research community.
+
+## Approach to Developing Others
+
+Our approach focuses on providing meaningful opportunities for growth with structured support tailored to individual needs and career stages.
+Sam has supervised multiple researchers through formal supervision, including co-supervising Katherine Sherratt's PhD on collaborative modelling and serving on Nikos Bosse's PhD advisory board for forecast scoring software development.
+He has created an environment through the epinowcast community that nurtures early-career researchers, including organising seminars, maintaining discussion forums, and coordinating collaborative development.
+
+Sebastian has extensive experience developing others through supervision of PhD students and early-career researchers at LSHTM.
+He has led development of openly accessible training courses on model fitting and nowcasting infectious disease dynamics, used by researchers worldwide for self-study.
+Both team members actively promote inclusive research cultures.
+
+The planned workshops in this project - one for onboarding developers and another for training users - will allow us to reach broader audiences.
 
 # Project partners
 
