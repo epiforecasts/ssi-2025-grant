@@ -2,13 +2,34 @@
 
 ## Summary
 
-*Ensure your summary is suitable for a variety of readers, for example:*
+Our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and a distributed maintenance burden, creating barriers to adoption and inefficiencies.
+These tools are currently used by major public health agencies, including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by multiple independent research groups.
+Collectively, they have been downloaded over 100,000 times with significant community engagement and have been cited in over 100 academic papers.
 
-- *opinion-formers*
-- *policymakers*
-- *the public*
-- *the wider research and software communities*
-*500 words*
+Many of these packages were developed rapidly during the COVID-19 pandemic, prioritising utility over long-term sustainability.
+Users struggle to discover and apply appropriate methods, while developers face significant technical debt and duplicated maintenance efforts.
+The ecosystem lacks clear governance and contribution pathways that would allow it to onboard new developers and evolve to match user needs.
+Without intervention, these challenges will limit the impact and sustainability of these valuable tools.
+
+This project will unify, harmonise, and establish sustainable governance for our ecosystem of infectious disease modelling tools.
+We will systematically address the current challenges through the following key activities:
+
+1. **Creating a unified ecosystem** with a single entry point for packages across both organisations, providing clear signposts for users and establishing a unified roadmap that ensures ongoing relevance and funding opportunities.
+
+2. **Standardising user interfaces** by seeking user and developer feedback on the divergent approaches across packages to enable consistent, intuitive interactions.
+
+3. **Establishing formal governance structures** for the unified ecosystem to support sustainable maintenance, facilitate decision making, and enable broader community participation.
+
+4. **Reducing code duplication** by identifying and implementing shared components across packages, improving interoperability and creating sustainable pathways for maintenance with next-generation frameworks.
+
+5. **Building community capacity** through improved contribution guides, onboarding materials, and infrastructure that facilitates communication across the ecosystem, plus targeted workshops for both new developers and users.
+
+Our approach involves creating shared statistical components that can be implemented once and reused across multiple packages.
+This reduces duplication of effort, improves functionality, and enables greater collaboration between developers.
+We will identify opportunities for such shared components that reduce maintenance burden while improving the tools' capabilities.
+
+Through these activities, we will provide public health agencies and researchers with a more coherent, maintainable set of tools for infectious disease modelling, enabling more effective responses to both routine surveillance and emerging threats across diverse global settings.
+The project directly addresses the sustainability challenges facing these widely-used tools, ensuring they remain available and effective for supporting UK and global health security.
 
 ## UKRI areas
 
@@ -32,13 +53,19 @@
 
 *Please enter the year that development of the software first started. If you are applying for support for multiple pieces of software, use the earliest date.*
 
+2020
+
 ## Year of first release
 
 *Please enter the year that the software was first released. If you are applying for support for multiple pieces of software, use the earliest date.*
 
+2020
+
 ## Programming language
 
 *Please enter the primary programming language(s) that your software is/are written in.*
+
+R, Stan
 
 # Vision
 
