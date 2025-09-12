@@ -6,3 +6,5 @@ DS_Store
 *.xlsx
 *.pptx
 .DS_Store
+.Rhistory
+.DS_Store
