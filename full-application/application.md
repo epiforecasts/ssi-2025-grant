@@ -14,15 +14,15 @@ Without intervention, these challenges will limit the impact and sustainability 
 This project will unify, harmonise, and establish sustainable governance for our ecosystem of infectious disease modelling tools.
 We will systematically address the current challenges through the following key activities:
 
-1. **Creating a unified ecosystem** with a single entry point for packages across both organisations, providing clear signposts for users and establishing a unified roadmap that ensures ongoing relevance and funding opportunities.
+1. Creating a unified ecosystem with a single entry point for packages across both organisations, providing clear signposts for users and establishing a unified roadmap that ensures ongoing relevance and funding opportunities.
 
-2. **Standardising user interfaces** by seeking user and developer feedback on the divergent approaches across packages to enable consistent, intuitive interactions.
+2. Standardising user interfaces by seeking user and developer feedback on the divergent approaches across packages to enable consistent, intuitive interactions.
 
-3. **Establishing formal governance structures** for the unified ecosystem to support sustainable maintenance, facilitate decision making, and enable broader community participation.
+3. Establishing formal governance structures for the unified ecosystem to support sustainable maintenance, facilitate decision making, and enable broader community participation.
 
-4. **Reducing code duplication** by identifying and implementing shared components across packages, improving interoperability and creating sustainable pathways for maintenance with next-generation frameworks.
+4. Reducing code duplication by identifying and implementing shared components across packages, improving interoperability and creating sustainable pathways for maintenance with next-generation frameworks.
 
-5. **Building community capacity** through improved contribution guides, onboarding materials, and infrastructure that facilitates communication across the ecosystem, plus targeted workshops for both new developers and users.
+5. Building community capacity through improved contribution guides, onboarding materials, and infrastructure that facilitates communication across the ecosystem, plus targeted workshops for both new developers and users.
 
 Our approach involves creating shared statistical components that can be implemented once and reused across multiple packages.
 This reduces duplication of effort, improves functionality, and enables greater collaboration between developers.
@@ -117,19 +117,19 @@ By creating a coherent ecosystem with standardised interfaces and unified govern
 
 *200 words*
 
-**Overall Aim**: To harmonise critical infectious disease modelling tools currently used by UKHSA, academic groups, and organisations, addressing the fragmentation across our organisations so that users can discover, apply, and contribute to appropriate methods.
+To harmonise critical infectious disease modelling tools currently used by UKHSA, academic groups, and organisations, addressing the fragmentation across our organisations so that users can discover, apply, and contribute to appropriate methods.
 
-**Specific Objectives**:
+We will address this aim with following objectives:
 
-1. **Create a unified ecosystem** with a single entry point for packages across both organisations, providing clear signposts for users and establishing a unified roadmap that ensures ongoing relevance.
+1. Create a unified ecosystem with a single entry point for packages across both organisations, providing clear signposts for users and establishing a unified roadmap that ensures ongoing relevance.
 
-2. **Standardise user interfaces** by seeking user and developer feedback on divergent approaches across packages to enable consistent, intuitive interactions.
+2. Standardise user interfaces by seeking user and developer feedback on divergent approaches across packages to enable consistent, intuitive interactions.
 
-3. **Establish formal governance structures** for the unified ecosystem to support sustainable maintenance, facilitate decision making, and enable broader community participation.
+3. Establish formal governance structures for the unified ecosystem to support sustainable maintenance, facilitate decision making, and enable broader community participation.
 
-4. **Reduce code duplication** by identifying and implementing shared components across packages, improving interoperability and creating sustainable pathways for maintenance.
+4. Reduce code duplication by identifying and implementing shared components across packages, improving interoperability and creating sustainable pathways for maintenance.
 
-5. **Build community capacity** through improved contribution guides, onboarding materials, and infrastructure that facilitates communication across the ecosystem, plus targeted workshops for developers and users.
+5. Build community capacity through improved contribution guides, onboarding materials, and infrastructure that facilitates communication across the ecosystem, plus targeted workshops for developers and users.
 
 These objectives will enable more robust outbreak response capabilities for emerging threats and facilitate research into reporting delays and biases in surveillance systems, while making sophisticated modelling more accessible to researchers.
 
@@ -143,6 +143,23 @@ These objectives will enable more robust outbreak response capabilities for emer
 
 *300 words*
 
+We are at a critical crossroads with these organisations facing significant technical debt resulting from pandemic-driven development.
+Many packages were developed rapidly during the COVID-19 pandemic and mpox outbreak, prioritising utility over long-term sustainability.
+Without intervention now, this technical debt will compound, creating barriers to adoption and preventing advances in infectious disease modelling.
+We are well positioned to grow these communities, but without seed funding this opportunity may not be possible as the current fragmented state limits our ability to attract and retain contributors.
+
+We are not aware of other funding sources that specifically target governance improvement and harmonisation work across research software ecosystems.
+We previously applied for Chan Zuckerberg Essential Software grants, but these appear to no longer be available.
+Existing research funding (including our work in the Modelling and Analytics Health Protection and Research Unit (HPRU)) supports methodological development but does not extend to dedicated software maintenance, harmonisation, and community governance that is central to this proposal.
+The RSMF provides an opportunity to address sustainability challenges that fall outside traditional research funding remits.
+
+Most work in this grant focuses on reducing technical debt, harmonising interfaces, and establishing ecosystem governance, all of which create foundations for long-term sustainability.
+As part of the HPRU Modelling and Analytics (with Sebastian as lead and Sam as co-lead of the forecasting theme), we expect PhD students and postdocs to contribute to the ecosystem beyond this project period.
+The formal governance structures and improved contribution pathways established through this project will facilitate similar contributions from other researchers and public health users.
+
+By creating a unified roadmap and governance framework, we will position the ecosystem to attract future funding opportunities and ensure maintenance responsibility is distributed across a broader, more sustainable community.
+Our track record shows success in converting users to contributors (20+ for some packages), and the community expansion activities will scale this approach across the unified ecosystem.
+
 ## EDIA
 
 *Explain how you will embed equity, diversity, inclusivity and accessibility considerations into your proposed work and the software being maintained, and how these will guide your aims, objectives, activities and outputs.*
@@ -152,8 +169,6 @@ These objectives will enable more robust outbreak response capabilities for emer
 Our central motivation in this project is to create more accessible and inclusive software that makes best practices in infectious disease modelling available to all researchers, regardless of background or resources.
 We are committed to fostering a welcoming and inclusive environment for contributors and users alike, where diverse voices are heard, valued, and empowered to both contribute to the project and use these tools in applied outbreak analysis.
 
-**Community Diversity and Inclusion**
-
 The epinowcast community already includes over 50 researchers globally, demonstrating our ability to foster inclusive collaboration across diverse geographical and institutional settings.
 Core tools like epinowcast and EpiNow2 each have 20+ contributors from different backgrounds, showing our success in converting users into community members.
 Our onboarding initiatives aim to facilitate participation from under-represented groups, and we have successfully onboarded contributions from a wide range of individuals, irrespective of gender, ethnicity, or location.
@@ -161,13 +176,9 @@ Our onboarding initiatives aim to facilitate participation from under-represente
 Through this project, we will strengthen community diversity by improving contribution guides and onboarding materials specifically designed to support individuals from diverse backgrounds, particularly those who are under-represented or from low-resource settings.
 The planned workshops for developers and users will actively seek to include participants from diverse institutions and career stages, with particular attention to supporting early-career researchers and those from under-represented groups.
 
-**Software Accessibility**
-
 By using entirely open-source, publicly available, and free-of-cost platforms such as GitHub and R, we ensure opportunities within our software development processes are available to anyone.
 Our approach of simplifying the handling of complex surveillance data makes sophisticated modelling more accessible, allowing researchers to focus on epidemiological questions rather than technical barriers.
 The standardised interfaces and improved documentation resulting from this harmonisation project will reduce technical barriers to adoption, particularly benefiting researchers with limited computational resources or training.
-
-**Inclusive Development Practices**
 
 Both team members actively promote inclusive research cultures.
 Sam has created an environment through the epinowcast community that nurtures early-career researchers through organising seminars, maintaining discussion forums, and coordinating collaborative development.
@@ -197,6 +208,78 @@ We are committed to continuously assessing and improving our EDIA efforts, guide
 *2000 words*
 
 *Add a Gantt chart to show the timings of activities*
+
+## Planned Work
+
+### Harnessing previous Work
+
+Our infectious disease modelling tools have achieved substantial impact, with over 100,000 downloads collectively and widespread adoption by major public health agencies including UKHSA, WHO, CDC, and ECDC for situational awareness and outbreak response.
+The ecosystem includes seven core packages spanning two organisations: epinowcast, primarycensored, baselinenowcast, and epidist within the epinowcast organisation, and EpiNow2, scoringutils, and socialmixr within the epiforecasts organisation.
+We have established contribution pathways with guides, forums, and support channels across both ecosystems, with core tools like epinowcast and EpiNow2 each having 20+ contributors, demonstrating our ability to convert users into community members.
+The epinowcast community includes over 50 researchers globally, providing a strong foundation for the community building activities proposed in this project.
+
+We have already demonstrated the technical feasibility of our unification approach through the development of primarycensored, which serves as a shared component providing backend functionality for primary event censored distributions.
+This package exemplifies the harmonisation strategy we propose to scale across the ecosystem: primarycensored is already integrated into epidist and planned for integration into EpiNow2 and epinowcast, reducing code duplication while improving functionality.
+Our experience developing primarycensored has identified the technical patterns and governance processes needed for successful shared components, providing a template for the harmonisation work this project will undertake.
+By building upon the success of primarycensored and our established community networks, we will transition from the current ad-hoc, pandemic-driven development approach to sustainable, coordinated ecosystem governance that ensures long-term maintenance and continued innovation.
+
+### Work Packages
+
+#### Work Package 1: Creating a unified ecosystem
+
+#### Work Package 2: Standardising user interfaces
+
+#### Work Package 3: Establishing formal governance structures
+
+#### Work Package 4: Reducing code duplication
+
+#### Work Package 5: Building community capacity
+
+### Team Responsibilities
+
+### Expected Outputs and Relationships
+
+### Timeline and Work Plan
+
+### Translation Strategy
+
+Our approach to maximising translation of outputs into outcomes and impacts leverages established networks and proven engagement strategies.
+Through our roles in the HPRU Modelling and Analytics, we will ensure project outputs directly inform ongoing collaborative research with PhD students and postdocs, facilitating immediate integration into academic workflows and policy-relevant research.
+The targeted workshops for developers and users will serve as key knowledge transfer mechanisms, bringing together diverse stakeholders to establish contribution pathways and transfer knowledge about unified tools.
+Our community forums and regular engagement meetings provide sustained channels for user feedback and adoption support.
+By maintaining direct collaboration with public health agencies who currently use these tools operationally (UKHSA, WHO, CDC, ECDC), we ensure outputs remain fit for purpose and achieve real-world impact in outbreak response and surveillance activities across diverse global settings.
+
+## Management
+
+### Work Management and Progress Monitoring
+
+Sam will provide overall project coordination, managing work package delivery across both organisations while Sebastian offers strategic oversight.
+Monthly meetings will coordinate activities between team members, ensuring alignment across the five work packages and addressing technical challenges as they arise.
+Quarterly milestone reviews will assess deliverables including shared component integrations, workshop delivery, and formal governance structure implementation.
+
+Progress will be monitored through systematic tracking of four key dimensions: technical improvements (achieving higher percentage of codebase on CRAN by spinning out components currently blocked by cmdstanr dependencies, test coverage increases, shared component implementation), user adoption (CRAN downloads, GitHub stars, academic citations, agency adoption through direct communication), community health (contributor growth, user-to-contributor conversion rates, forum engagement), and governance establishment (formal structure implementation, independent funding secured by community members).
+We will establish baseline measurements at project start, building on our existing metrics collection to create unified tracking processes that demonstrate progress toward ecosystem harmonisation and sustainability objectives.
+
+### Current Governance and Infrastructure
+
+We have established substantial technical and community infrastructure that provides a strong foundation for this project, though formal governance remains a key area for improvement.
+Our packages benefit from centralised CI infrastructure that prevents development from breaking functionality, with automated testing systems in place across both organisations.
+The ecosystem includes active forums for user support, organisational websites (epinowcast.org, epiforecasts.io) with linked package subsites, and regular community seminars that facilitate knowledge transfer.
+We have also created open teaching materials including freely available training courses on model fitting and nowcasting which we will be able to use to communicate the work in this project.
+However, while we have established open development practices with transparent contribution guidelines and code review processes across both ecosystems, the current governance structure remains largely informal and fragmented across two organisations.
+Establishing formal governance structures for unified decision making, sustainable maintenance coordination, and broader community participation represents a major aim of this grant.
+
+### Risk Management
+
+Key technical and staffing risks include potential challenges recruiting a senior research software engineer with the specialist expertise required for harmonising R packages with Stan backends.
+We will mitigate this by leveraging CMMID's large community of modellers and Sebastian's extensive networks in infectious disease modelling to identify suitable candidates with the necessary technical skills.
+A significant project risk is engaging the community to embrace unified governance structures.
+However, this challenge is precisely why we need dedicated time and resources through this grant to systematically establish formal governance, building on our existing community infrastructure including active forums, regular seminars, and established contribution pathways.
+Writing effective onboarding materials for diverse user backgrounds presents complexity challenges, but we will mitigate this by engaging with our existing user base to understand what works across different skill levels and institutional contexts, using iterative feedback to ensure materials serve a wide range of users effectively.
+
+Workshop representativeness and broader community engagement present ongoing challenges for ensuring inclusive participation across diverse institutions, career stages, and geographical settings.
+We will address these risks by leveraging Sebastian's extensive networks through international public health collaborations (UKHSA, WHO, CDC, ECDC) and his membership in organisations like Juniper to ensure diverse workshop participation.
+Our established community engagement approach through forums, GitHub support, and regular community meetings provides multiple channels for sustained user feedback and adoption support, while maintaining direct operational collaboration with public health agencies who currently use these tools ensures outputs remain fit for purpose and achieve real-world impact across diverse global settings.
 
 # Capability to deliver
 
