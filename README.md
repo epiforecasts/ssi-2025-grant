@@ -4,6 +4,11 @@ The full application is located at `full-application/application.md`.
 
 **Deadline: 5pm on 18th**
 
+## Reference Materials
+
+- `resources/` contains summary requirements for the grant application
+- `application/` contains our Round 1 application that scored 100%
+
 ## Outstanding Tasks
 
 - [ ] Find budget details and add them to the application
