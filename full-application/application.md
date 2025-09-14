@@ -236,7 +236,6 @@ We will rebrand existing forums and communication channels as needed to reflect 
 All organizational changes will be implemented with backward compatibility as a priority, maintaining existing package access while creating new unified entry points.
 
 Sebastian will leverage his role on the WHO Collaboratory Technical Advisory Group to launch the unified ecosystem to broader international audiences.
-This broader launch will position the unified ecosystem as a central resource for public health agencies and researchers worldwide.
 
 Expected outputs include, proposed organizational structure with community approval, established GitHub organization with unified CI infrastructure, rebranded community resources, maintained backward compatibility for all existing links, and successful launch through international public health networks.
 
@@ -272,7 +271,6 @@ Sam will lead this work with support from the senior research software engineer 
 The first priority is completing the full integration of primarycensored into epinowcast and EpiNow2 packages, building on our template approach from the epidist integration.
 
 Following primarycensored integration, we will identify and extract additional shared modules including the custom distribution interface in EpiNow2 and the custom formula interface in epinowcast, creating independent modules that can be reused across the ecosystem.
-We will adopt scoringutils data formats more widely as standardized input and output formats across packages, leveraging their established structure with required columns for observed and predicted values.
 Further opportunities include extracting reporting formatting functionality from EpiNow2 to create package-independent reporting modules that can be used across the ecosystem.
 
 The senior research software engineer will support implementing the technical extraction work.
@@ -286,16 +284,81 @@ Expected outputs include completed primarycensored integration across epinowcast
 
 This work package will expand community participation through targeted training, improved documentation, and enhanced onboarding materials that aim to convert users into contributors.
 We will deliver two targeted workshops: a developer onboarding workshop focused on contributing to the unified ecosystem, and a user training workshop both on how to use the ecosystem as well as how to start making contributions.
-Both workshops will actively seek diverse participation across career stages and institutions, leveraging Sebastian's networks through international public health collaborations and his Juniper organisation membership.
 
 The senior research software engineer will lead comprehensive documentation improvements across all packages, developing tiered documentation from beginner to advanced levels.
 This documentation will support both using the ecosystem but also provide guidance as to how to adapt it and how to make contributions.
 Sam will support this documentation work and ensure alignment with the user needs identified through community consultation.
 Additionally, we will enhance communication infrastructure including forum improvements and regular virtual seminars annd developer community meetings that facilitate knowledge transfer and community coordination.
 
-Expected outputs include two delivered workshops with diverse participation, unified documentation across packages, improved contribution guides and onboarding materials, enhanced community forums and communication tools, and measurable increases in contributor diversity and engagement across the ecosystem.
+Expected outputs include two delivered workshops with diverse participation, unified documentation across packages, improved contribution guides and onboarding materials, enhanced community forums and communication tools, academic paper documenting the unified ecosystem approach, and measurable increases in contributor diversity and engagement across the ecosystem.
 
 ### Timeline and Work Plan
+
+The project will run over 24 months with work packages operating in parallel, structured in quarterly phases to ensure systematic progress and coordination across activities.
+
+Our timeline has four phases in Year one: Foundation, Development, Implementation, and Consolidation. Followed by four phases in Year two: Refinement, Integration, Community, and Sustainability. Each phase builds on previous work while maintaining parallel progress across work packages. Detailed timing dependencies and milestones are shown in the accompanying Gantt chart.
+
+**Year 1**
+
+*Q1 (Months 1-3): Foundation Phase*
+- Project setup: Senior research software engineer recruitment and onboarding
+- Project setup: Establish baseline metrics for tracking progress across all dimensions
+- WP1: Community consultation on unified organization structure and naming
+- WP2: User and developer interface preference surveys through forums and meetings
+- WP3: Stakeholder mapping and governance model research
+- WP4: Complete primarycensored integration into epinowcast and EpiNow2
+- WP5: Assessment of current documentation gaps and community needs
+
+*Q2 (Months 4-6): Development Phase*
+- WP1: Establish new GitHub organization with unified CI infrastructure
+- WP2: Begin scoringutils data format adoption across packages
+- WP3: Develop governance proposal based on consultation findings
+- WP4: Extract custom distribution interface from EpiNow2
+- WP5: Begin documentation improvements across packages
+
+*Q3 (Months 7-9): Implementation Phase*
+- WP1: Rebrand community resources and implement unified entry points
+- WP2: Begin interface pattern standardization across packages
+- WP3: Community feedback on governance proposal through forums and meetings
+- WP4: Extract custom formula interface from epinowcast
+- WP5: Developer onboarding workshop delivery
+
+*Q4 (Months 10-12): Consolidation Phase*
+- WP1: Launch unified ecosystem through WHO Collaboratory networks
+- WP2: Adapt epinowcast formula interface for broader ecosystem use
+- WP3: Implement accepted governance structure with documentation
+- WP4: Begin extraction of reporting formatting modules from EpiNow2
+- WP5: Enhanced forum infrastructure and communication tools
+
+**Year 2**
+
+*Q1 (Months 13-15): Refinement Phase*
+- WP1: Evaluate organizational structure effectiveness and adjust as needed
+- WP2: Finalize standardized input/output patterns across all packages
+- WP3: Operationalize governance systems with community participation
+- WP4: Complete package-independent reporting module development
+- WP5: Develop tiered documentation from beginner to advanced levels
+
+*Q2 (Months 16-18): Integration Phase*
+- WP1: Ensure seamless transitions and backward compatibility maintenance
+- WP2: Complete ecosystem-wide scoringutils data format implementation
+- WP3: Monitor governance effectiveness and community engagement
+- WP4: Final testing and integration of all shared components
+- WP5: Improve contribution guides and onboarding materials
+
+*Q3 (Months 19-21): Community Phase*
+- WP1: Final organizational adjustments based on user feedback
+- WP2: Community-driven prioritization of remaining interface improvements
+- WP3: Document governance processes and decision-making frameworks
+- WP4: Community feedback integration for shared component priorities
+- WP5: User training and onboarding workshop delivery
+
+*Q4 (Months 22-24): Sustainability Phase*
+- WP1: Establish long-term organizational maintenance plans
+- WP2: Implement interface improvements identified in community phase
+- WP3: Transition to community-led governance operations
+- WP4: Final validation and testing of all integrated shared components
+- WP5: Measure community engagement outcomes and complete academic paper
 
 ### Translation Strategy
 
