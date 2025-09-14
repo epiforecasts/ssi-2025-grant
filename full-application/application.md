@@ -1,5 +1,8 @@
 # Summary
 
+*500 words*
+*Ensure your summary is suitable for a variety of readers, for example: opinion-formers, policymakers, the public, the wider research and software communities*
+
 ## Summary
 
 Our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and a distributed maintenance burden, creating barriers to adoption and inefficiencies.
@@ -246,7 +249,7 @@ This work package will standardise user interfaces across the ecosystem starting
 We will engage with the community through the developer meetings to understand which current interfaces work well and which create barriers to adoption. Interface options will be presented at the developer workshop from WP 5.
 
 Building on the shared modules developed in WP 4, we will reuse successful interface patterns more widely across packages. The custom formula interface from epinowcast will be adapted for broader use, particularly in EpiNow2, creating better alignment between package interfaces while maintaining their distinct purposes. 
-Similarly we will adopt the distribution interfrace from EpiNow2 throughout the ecosystem.
+Similarly we will adopt the distribution interface from EpiNow2 throughout the ecosystem.
 
 Central to this standardisation effort is adopting scoringutils data formats as the common input and output standard across all packages. scoringutils provides a proven data.table-based framework with standardised observed and predicted column requirements, type-specific validation functions, and extensible architecture already used by UKHSA, CDC, and ECDC.
 
@@ -274,7 +277,7 @@ Following primarycensored integration, we will identify and extract additional s
 Further opportunities include extracting reporting formatting functionality from EpiNow2 to create package-independent reporting modules that can be used across the ecosystem.
 
 The senior research software engineer will support implementing the technical extraction work.
-Community feedback will be sort to guide the priority order of projects.
+Community feedback will be sought to guide the priority order of projects.
 All module extraction will maintain backward compatibility to preserve existing functionality.
 We will follow a staged integration approach, testing each shared component thoroughly before expanding to additional packages.
 
