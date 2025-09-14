@@ -1,11 +1,15 @@
-# Timeline
+# SSI Research Software Maintenance Fund 2025 Application
 
-- [x] Finalise 10 key sentences (by 15 May)
-- [x] Improve application draft (by 16 May)
-- [x] Get feedback to the application (by 19 May)
-- [x] Incorporate feedback to the application (by 20 May)
-- [x] Get all contributor statements ready (by 20 May)
-- [x] Cross-review contributor statements (by 22 May)
-- [x] Final review of application (by 24 May)
-- [x] Submit application (by 25 May)
-- [ ] Wait to see if get invited for the next round
+The full application is located at `full-application/application.md`.
+
+**Deadline: 5pm on 18th**
+
+## Outstanding Tasks
+
+- [ ] Find budget details and add them to the application
+- [ ] Create Gantt chart for the approach section
+- [ ] Check our proposed roles in the team structure
+- [ ] Confirm Seb happy as co-PI with Sam as PI (really breaks the definition of co making it a thing but not an equal thing)
+- [ ] Sam review and edit application
+- [ ] Seb review and edit application
+- [ ] Get sign off letter from head of department
