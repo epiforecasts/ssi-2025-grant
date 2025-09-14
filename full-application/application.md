@@ -227,17 +227,73 @@ By building upon the success of primarycensored and our established community ne
 
 #### Work Package 1: Creating a unified ecosystem
 
+This work package will establish a unified organizational structure that provides clear signposts for users while maintaining existing functionality and access.
+Sebastian will lead community consultation to guide naming and scope of the new organization.
+Based on consultation findings, we will establish a new GitHub organization that houses the unified ecosystem while ensuring all existing links to documentation and resources continue to work through maintained subsites and redirects.
+
+The senior research software engineer will support merging CI tooling across both organizations to create consistent automated testing and deployment processes.
+We will rebrand existing forums and communication channels as needed to reflect the unified organization, ensuring seamless transitions for current community members.
+All organizational changes will be implemented with backward compatibility as a priority, maintaining existing package access while creating new unified entry points.
+
+Sebastian will leverage his role on the WHO Collaboratory Technical Advisory Group to launch the unified ecosystem to broader international audiences.
+This broader launch will position the unified ecosystem as a central resource for public health agencies and researchers worldwide.
+
+Expected outputs include, proposed organizational structure with community approval, established GitHub organization with unified CI infrastructure, rebranded community resources, maintained backward compatibility for all existing links, and successful launch through international public health networks.
+
 #### Work Package 2: Standardising user interfaces
+
+This work package will standardise user interfaces across the ecosystem starting with community consultation. Sam will lead this work package with support from the senior software engineer and community engagement from Sebastian.
+
+We will engage with the community through the developer meetings to understand which current interfaces work well and which create barriers to adoption. Interface options will be presented at the developer workshop from WP 5.
+
+Building on the shared modules developed in WP 4, we will reuse successful interface patterns more widely across packages. The custom formula interface from epinowcast will be adapted for broader use, particularly in EpiNow2, creating better alignment between package interfaces while maintaining their distinct purposes. 
+Similarly we will adopt the distribution interfrace from EpiNow2 throughout the ecosystem.
+
+Central to this standardisation effort is adopting scoringutils data formats as the common input and output standard across all packages. scoringutils provides a proven data.table-based framework with standardised observed and predicted column requirements, type-specific validation functions, and extensible architecture already used by UKHSA, CDC, and ECDC.
+
+All interface changes will maintain backward compatibility through careful staging and testing. Community feedback will guide prioritisation of interface improvements.
+
+Expected outputs include community consultation findings on interface preferences, adapted formula interfaces across packages, standardised scoringutils data formats implemented ecosystem-wide, consistent input/output patterns across all packages, and maintained backward compatibility with existing workflows.
 
 #### Work Package 3: Establishing formal governance structures
 
+This work package will establish formal governance structures for the unified ecosystem through a phased approach with  community consultation at each step.
+We will begin with community consultation using stakeholder mapping and user surveys to understand current governance challenges and identify sustainable governance models.
+Sam will lead this consultation process while Sebastian provides guidance on governance frameworks from his CMMID experience.
+Based on consultation findings, we will develop a governance proposal addressing coordination, decision-making processes, and community participation mechanisms.
+The proposal will then undergo community feedback through our forum, developer meetings, and the develop er workshop, with refinements based on input from users, contributors, and partner organisations.
+Finally, we will implement the accepted governance structure.
+Expected outputs include stakeholder analysis, consultation report, governance proposal, community feedback report, and operational governance systems with documentation.
+
 #### Work Package 4: Reducing code duplication
+
+This work package will identify and extract shared components across packages to reduce the maintenance burden and improve functionality.
+Sam will lead this work with support from the senior research software engineer to implement the modular extraction and integration processes.
+The first priority is completing the full integration of primarycensored into epinowcast and EpiNow2 packages, building on our template approach from the epidist integration.
+
+Following primarycensored integration, we will identify and extract additional shared modules including the custom distribution interface in EpiNow2 and the custom formula interface in epinowcast, creating independent modules that can be reused across the ecosystem.
+We will adopt scoringutils data formats more widely as standardized input and output formats across packages, leveraging their established structure with required columns for observed and predicted values.
+Further opportunities include extracting reporting formatting functionality from EpiNow2 to create package-independent reporting modules that can be used across the ecosystem.
+
+The senior research software engineer will support implementing the technical extraction work.
+Community feedback will be sort to guide the priority order of projects.
+All module extraction will maintain backward compatibility to preserve existing functionality.
+We will follow a staged integration approach, testing each shared component thoroughly before expanding to additional packages.
+
+Expected outputs include completed primarycensored integration across epinowcast and EpiNow2, extracted and independent distribution and formula interface modules, standardized scoringutils data formats adopted across packages, a package-independent reporting module, and maintained backward compatibility with comprehensive testing of all integrated components.
 
 #### Work Package 5: Building community capacity
 
-### Team Responsibilities
+This work package will expand community participation through targeted training, improved documentation, and enhanced onboarding materials that aim to convert users into contributors.
+We will deliver two targeted workshops: a developer onboarding workshop focused on contributing to the unified ecosystem, and a user training workshop both on how to use the ecosystem as well as how to start making contributions.
+Both workshops will actively seek diverse participation across career stages and institutions, leveraging Sebastian's networks through international public health collaborations and his Juniper organisation membership.
 
-### Expected Outputs and Relationships
+The senior research software engineer will lead comprehensive documentation improvements across all packages, developing tiered documentation from beginner to advanced levels.
+This documentation will support both using the ecosystem but also provide guidance as to how to adapt it and how to make contributions.
+Sam will support this documentation work and ensure alignment with the user needs identified through community consultation.
+Additionally, we will enhance communication infrastructure including forum improvements and regular virtual seminars annd developer community meetings that facilitate knowledge transfer and community coordination.
+
+Expected outputs include two delivered workshops with diverse participation, unified documentation across packages, improved contribution guides and onboarding materials, enhanced community forums and communication tools, and measurable increases in contributor diversity and engagement across the ecosystem.
 
 ### Timeline and Work Plan
 
