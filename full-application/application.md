@@ -4,7 +4,7 @@
 
 Our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and a distributed maintenance burden, creating barriers to adoption and inefficiencies.
 These tools are currently used by major public health agencies, including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by multiple independent research groups.
-Collectively, they have been downloaded over 100,000 times with significant community engagement and have been cited in over 100 academic papers.
+Collectively, they have been downloaded over 100,000 times with significant community engagement and have been cited in over a 100 academic papers.
 
 Many of these packages were developed rapidly during the COVID-19 pandemic, prioritising utility over long-term sustainability.
 Users struggle to discover and apply appropriate methods, while developers face significant technical debt and duplicated maintenance efforts.
@@ -45,9 +45,17 @@ epinowcast, primarycensored, baselinenowcast, epidist, scoringutils, socialmixr,
 
 *If there is a public repository for the software, please enter it.*
 
+https://github.com/epinowcast, https://github.com/epiforecasts
+
+All packages have individual repositories within these organisations.
+
 ## Website (optional)
 
 *If there is a website for the software, please enter it,*
+
+https://epinowcast.org, https://epiforecasts.io
+
+All packages have linked subsites within these organisation websites.
 
 ## Year development started
 
@@ -85,11 +93,45 @@ R, Stan
 
 *300 words*
 
+This project will unify, harmonise, and establish sustainable governance for our ecosystem of infectious disease modelling tools, delivering significant value to UK research by addressing the fragmentation across organisations.
+UK public health agencies currently use these tools to support outbreak response and surveillance for infectious diseases including COVID-19, influenza, and norovirus.
+The harmonised ecosystem will enable more robust outbreak response capabilities for emerging threats and facilitate research into reporting delays and biases in surveillance systems.
+Researchers use our tools for methodological comparison and validation.
+For example, scoringutils is widely used for evaluating forecast models, EpiNow2 has been used for evaluating methods like EpiFusion (Judge et al. 2024) and viral load based approaches (Hay et al. 2021), and epinowcast has been used to evaluate methods for nowcasting (Mellor et al. 2024).
+This cross-method validation is crucial for advancing epidemiological research.
+Other examples of research enabled by this ecosystem include real-time situational awareness during outbreaks and robust estimation of reporting delays in surveillance systems.
+
+The ecosystem currently lacks clear governance and contribution pathways that would allow it to onboard new developers and evolve to match user needs.
+Establishing formal governance structures for the unified ecosystem will support sustainable maintenance, facilitate decision making, and enable broader community participation.
+We have established some contribution pathways with guides, forums, and support channels across both ecosystems, demonstrating our capacity to scale the community further through improved governance and documentation.
+By improving contribution guides and onboarding materials, we will expand our contributor pool and distribute maintenance responsibility across a wider community.
+
+Creating a single entry point for packages across both organisations will provide clear signposts for users, while standardising user interfaces will enable consistent, intuitive interactions.
+By simplifying the handling of complex surveillance data, our tools make sophisticated modelling more accessible, allowing researchers to focus more on epidemiological questions than data challenges.
+The project aligns with key UK research priorities around pandemic preparedness, health data science infrastructure, and methodological innovation, enabling more efficient knowledge transfer between research groups and institutions through reduced duplication and inconsistencies.
+By creating a coherent ecosystem with standardised interfaces and unified governance structures, this project will advance good practice in research software development, and help to establish methodological and technical standards.
+
 ## Objectives
 
 *Clearly describe the aims and objectives of this work.*
 
 *200 words*
+
+**Overall Aim**: To harmonise critical infectious disease modelling tools currently used by UKHSA, academic groups, and organisations, addressing the fragmentation across our organisations so that users can discover, apply, and contribute to appropriate methods.
+
+**Specific Objectives**:
+
+1. **Create a unified ecosystem** with a single entry point for packages across both organisations, providing clear signposts for users and establishing a unified roadmap that ensures ongoing relevance.
+
+2. **Standardise user interfaces** by seeking user and developer feedback on divergent approaches across packages to enable consistent, intuitive interactions.
+
+3. **Establish formal governance structures** for the unified ecosystem to support sustainable maintenance, facilitate decision making, and enable broader community participation.
+
+4. **Reduce code duplication** by identifying and implementing shared components across packages, improving interoperability and creating sustainable pathways for maintenance.
+
+5. **Build community capacity** through improved contribution guides, onboarding materials, and infrastructure that facilitates communication across the ecosystem, plus targeted workshops for developers and users.
+
+These objectives will enable more robust outbreak response capabilities for emerging threats and facilitate research into reporting delays and biases in surveillance systems, while making sophisticated modelling more accessible to researchers.
 
 ## Timeliness and Sustainability
 
@@ -106,6 +148,33 @@ R, Stan
 *Explain how you will embed equity, diversity, inclusivity and accessibility considerations into your proposed work and the software being maintained, and how these will guide your aims, objectives, activities and outputs.*
 
 *This can include (but is not limited to) considerations applying to your team, your community, and your software.*
+
+Our central motivation in this project is to create more accessible and inclusive software that makes best practices in infectious disease modelling available to all researchers, regardless of background or resources.
+We are committed to fostering a welcoming and inclusive environment for contributors and users alike, where diverse voices are heard, valued, and empowered to both contribute to the project and use these tools in applied outbreak analysis.
+
+**Community Diversity and Inclusion**
+
+The epinowcast community already includes over 50 researchers globally, demonstrating our ability to foster inclusive collaboration across diverse geographical and institutional settings.
+Core tools like epinowcast and EpiNow2 each have 20+ contributors from different backgrounds, showing our success in converting users into community members.
+Our onboarding initiatives aim to facilitate participation from under-represented groups, and we have successfully onboarded contributions from a wide range of individuals, irrespective of gender, ethnicity, or location.
+
+Through this project, we will strengthen community diversity by improving contribution guides and onboarding materials specifically designed to support individuals from diverse backgrounds, particularly those who are under-represented or from low-resource settings.
+The planned workshops for developers and users will actively seek to include participants from diverse institutions and career stages, with particular attention to supporting early-career researchers and those from under-represented groups.
+
+**Software Accessibility**
+
+By using entirely open-source, publicly available, and free-of-cost platforms such as GitHub and R, we ensure opportunities within our software development processes are available to anyone.
+Our approach of simplifying the handling of complex surveillance data makes sophisticated modelling more accessible, allowing researchers to focus on epidemiological questions rather than technical barriers.
+The standardised interfaces and improved documentation resulting from this harmonisation project will reduce technical barriers to adoption, particularly benefiting researchers with limited computational resources or training.
+
+**Inclusive Development Practices**
+
+Both team members actively promote inclusive research cultures.
+Sam has created an environment through the epinowcast community that nurtures early-career researchers through organising seminars, maintaining discussion forums, and coordinating collaborative development.
+Sebastian has led development of openly accessible training courses used by researchers worldwide for self-study, demonstrating commitment to removing educational barriers.
+
+Our approach focuses on providing meaningful opportunities for growth with structured support tailored to individual needs and career stages.
+We are committed to continuously assessing and improving our EDIA efforts, guided by feedback from our community members and ensuring our unified governance structures embed these principles from inception.
 
 # Approach
 
@@ -211,6 +280,20 @@ The planned workshops in this project - one for onboarding developers and anothe
 *We are not looking for a detailed breakdown of each cost, but want you to demonstrate how the resources you are applying for are comprehensive, appropriate and justified, and represent the optimal use of resources to achieve the intended outcomes.*
 
 *1000 words*
+
+Dr Sam Abbott will lead the project at 100% FTE.
+As founder of the epinowcast community and developer of key packages across both organisations, Sam has unique understanding of both the technical architecture and user communities.
+Full-time commitment is essential for coordinating harmonisation across seven packages in two organisations while building governance structures and community capacity.
+
+Professor Sebastian Funk will provide strategic guidance at fractional FTE.
+As Director of the CMMID at LSHTM, Sebastian brings leadership experience and public health networks essential for stakeholder engagement and ensuring alignment with research community needs.
+
+The team will include a senior research software engineer who will implement technical aspects of unification, interface standardisation, and code deduplication.
+This role is necessary because harmonising complex R packages with Stan backends requires specialist expertise in software architecture and statistical computing frameworks.
+
+The project includes two targeted workshops: one for onboarding new developers and another for training users.
+These workshops represent necessary investments in building sustainable contributor communities and ensuring effective adoption of the harmonised ecosystem.
+Workshop costs cover venue, materials, and facilitation expenses for bringing together developers and users to establish contribution pathways and transfer knowledge about the unified tools.
 
 ## Total funding requested
 
