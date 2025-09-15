@@ -281,6 +281,7 @@ The senior research software engineer will support implementing the technical ex
 Community feedback will be sought to guide the priority order of projects.
 All module extraction will maintain backward compatibility to preserve existing functionality.
 We will follow a staged integration approach, testing each shared component thoroughly before expanding to additional packages.
+In this work package we will also focus on ongoing maintenance of the ecosystem, addressing technical debt through regular bug fixes, dependency updates, and compatibility maintenance to ensure sustained operation.
 
 Expected outputs include completed primarycensored integration across epinowcast and EpiNow2, extracted and independent distribution and formula interface modules, standardized scoringutils data formats adopted across packages, a package-independent reporting module, and maintained backward compatibility with comprehensive testing of all integrated components.
 
@@ -292,7 +293,7 @@ We will deliver two targeted workshops: a developer onboarding workshop focused 
 The senior research software engineer will lead comprehensive documentation improvements across all packages, developing tiered documentation from beginner to advanced levels.
 This documentation will support both using the ecosystem but also provide guidance as to how to adapt it and how to make contributions.
 Sam will support this documentation work and ensure alignment with the user needs identified through community consultation.
-Additionally, we will enhance communication infrastructure including forum improvements and monthly virtual developer meetings that cover design philosophy, R package development, Stan development, Git/GitHub skills, and unit testing.
+Additionally, we will enhance communication infrastructure including forum improvements and monthly virtual developer meetings led by the senior research software engineer that cover design philosophy, R package development, Stan development, Git/GitHub skills, and unit testing.
 We will support the development of community packages like hashprng and coerceDt as resources allow, aiming to onboard at least 3 community packages throughout the grant.
 We will also increase activity on our community sites and blogs, particularly improving the newcomer experience.
 
