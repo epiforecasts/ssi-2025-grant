@@ -265,7 +265,8 @@ Sam will lead this consultation process while Sebastian provides guidance on gov
 Based on consultation findings, we will develop a governance proposal addressing coordination, decision-making processes, and community participation mechanisms.
 The proposal will then undergo community feedback through our forum, developer meetings, and the develop er workshop, with refinements based on input from users, contributors, and partner organisations.
 Finally, we will implement the accepted governance structure.
-Expected outputs include stakeholder analysis, consultation report, governance proposal, community feedback report, and operational governance systems with documentation.
+As part of establishing formal governance, we will pursue becoming an affiliated NumFocus project to provide fiscal sponsorship and institutional support for the ecosystem.
+Expected outputs include stakeholder analysis, consultation report, governance proposal, community feedback report, operational governance systems with documentation, and NumFocus affiliation application.
 
 #### Work Package 4: Reducing code duplication
 
@@ -291,7 +292,9 @@ We will deliver two targeted workshops: a developer onboarding workshop focused 
 The senior research software engineer will lead comprehensive documentation improvements across all packages, developing tiered documentation from beginner to advanced levels.
 This documentation will support both using the ecosystem but also provide guidance as to how to adapt it and how to make contributions.
 Sam will support this documentation work and ensure alignment with the user needs identified through community consultation.
-Additionally, we will enhance communication infrastructure including forum improvements and regular virtual seminars annd developer community meetings that facilitate knowledge transfer and community coordination.
+Additionally, we will enhance communication infrastructure including forum improvements and monthly virtual developer meetings that cover design philosophy, R package development, Stan development, Git/GitHub skills, and unit testing.
+We will support the development of community packages like hashprng and coerceDt as resources allow, aiming to onboard at least 3 community packages throughout the grant.
+We will also increase activity on our community sites and blogs, particularly improving the newcomer experience.
 
 Expected outputs include two delivered workshops with diverse participation, unified documentation across packages, improved contribution guides and onboarding materials, enhanced community forums and communication tools, academic paper documenting the unified ecosystem approach, and measurable increases in contributor diversity and engagement across the ecosystem.
 
