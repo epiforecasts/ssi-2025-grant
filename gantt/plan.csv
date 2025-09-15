@@ -1,0 +1,44 @@
+wp,activity,start_date,end_date
+Project Management,Senior research software engineer recruitment and onboarding,1,3
+Project Management,Establish baseline metrics for tracking progress,1,3
+Project Management,Assess progress against baseline metrics,22,24
+WP1: Unified Ecosystem,Community consultation on organization structure,1,3
+WP1: Unified Ecosystem,Establish GitHub organization with CI infrastructure,4,6
+WP1: Unified Ecosystem,Rebrand community resources and entry points,7,9
+WP1: Unified Ecosystem,Launch unified ecosystem through WHO networks,10,12
+WP1: Unified Ecosystem,Evaluate and adjust organizational structure,13,15
+WP1: Unified Ecosystem,Ensure seamless transitions and compatibility,16,18
+WP1: Unified Ecosystem,Final organizational adjustments from feedback,19,21
+WP1: Unified Ecosystem,Establish long-term maintenance plans,22,24
+WP2: User Interfaces,Interface preference surveys and consultation,1,3
+WP2: User Interfaces,Begin scoringutils data format adoption,4,6
+WP2: User Interfaces,Interface pattern standardization across packages,7,9
+WP2: User Interfaces,Adapt formula interface for broader ecosystem,10,12
+WP2: User Interfaces,Finalize standardized input/output patterns,13,15
+WP2: User Interfaces,Complete scoringutils format implementation,16,18
+WP2: User Interfaces,Community prioritization of interface improvements,19,21
+WP2: User Interfaces,Implement final interface improvements,22,24
+WP3: Governance,Stakeholder mapping and governance research,1,3
+WP3: Governance,Develop governance proposal from consultation,4,6
+WP3: Governance,Community feedback on governance proposal,7,9
+WP3: Governance,Implement governance structure with documentation,10,12
+WP3: Governance,Operationalize governance systems,13,15
+WP3: Governance,Monitor governance effectiveness,16,18
+WP3: Governance,Document governance processes and frameworks,19,21
+WP3: Governance,Transition to community-led operations,22,24
+WP4: Code Deduplication,Complete primarycensored integration,1,3
+WP4: Code Deduplication,Extract custom distribution interface,4,6
+WP4: Code Deduplication,Extract custom formula interface,7,9
+WP4: Code Deduplication,Extract reporting formatting modules,10,12
+WP4: Code Deduplication,Complete independent reporting module,13,15
+WP4: Code Deduplication,Final testing and integration,16,18
+WP4: Code Deduplication,Community feedback on shared components,19,21
+WP4: Code Deduplication,Final validation and testing,22,24
+WP5: Community Capacity,Assess documentation gaps and community needs,1,3
+WP5: Community Capacity,Begin documentation improvements,4,6
+WP5: Community Capacity,Developer onboarding workshop,7,9
+WP5: Community Capacity,Enhanced forum infrastructure,10,12
+WP5: Community Capacity,Develop tiered documentation,13,15
+WP5: Community Capacity,Improve contribution guides,16,18
+WP5: Community Capacity,User training workshop,19,21
+WP5: Community Capacity,Measure outcomes and complete paper,22,24

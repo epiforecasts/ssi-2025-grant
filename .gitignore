@@ -1,10 +1,16 @@
-DS_Store
-*.pdf
+.DS_Store
 *.docx
 *.doc
 *.xls
 *.xlsx
 *.pptx
-.DS_Store
 .Rhistory
-.DS_Store
+
+# Quarto cache and generated files
+*_cache/
+*_files/
+.quarto/
+
+# Exclude PDFs but allow gantt chart
+*.pdf
+!gantt/chart.pdf
