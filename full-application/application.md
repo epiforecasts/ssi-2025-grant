@@ -5,9 +5,9 @@
 
 ## Summary
 
-Our infectious disease modelling tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and a distributed maintenance burden, creating barriers to adoption and inefficiencies.
-These tools are currently used by major public health agencies, including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by multiple independent research groups.
+Our infectious disease modelling tools are used by major public health agencies, including UKHSA, WHO, CDC, and ECDC for situational awareness of infectious diseases, as well as by multiple independent research groups for analysis and validation.
 Collectively, they have been downloaded over 100,000 times with significant community engagement and have been cited in over a 100 academic papers.
+However, these tools are fragmented across two organisations with inconsistent interfaces, overlapping functionality, and a distributed maintenance burden, creating barriers to adoption and inefficiencies.
 
 Many of these packages were developed rapidly during the COVID-19 pandemic, prioritising utility over long-term sustainability.
 Users struggle to discover and apply appropriate methods, while developers face significant technical debt and duplicated maintenance efforts.
@@ -32,7 +32,7 @@ This reduces duplication of effort, improves functionality, and enables greater 
 We will identify opportunities for such shared components that reduce maintenance burden while improving the tools' capabilities.
 
 Through these activities, we will provide public health agencies and researchers with a more coherent, maintainable set of tools for infectious disease modelling, enabling more effective responses to both routine surveillance and emerging threats across diverse global settings.
-The project directly addresses the sustainability challenges facing these widely-used tools, ensuring they remain available and effective for supporting UK and global health security.
+The project directly addresses the sustainability challenges facing these widely-used tools, ensuring they remain available and effective for supporting UK research infrastructure as well as global health security.
 
 ## UKRI areas
 
@@ -100,7 +100,7 @@ This project will unify, harmonise, and establish sustainable governance for our
 UK public health agencies currently use these tools to support outbreak response and surveillance for infectious diseases including COVID-19, influenza, and norovirus.
 The harmonised ecosystem will enable more robust outbreak response capabilities for emerging threats and facilitate research into reporting delays and biases in surveillance systems.
 Researchers use our tools for methodological comparison and validation.
-For example, scoringutils is widely used for evaluating forecast models, EpiNow2 has been used for evaluating methods like EpiFusion (Judge et al. 2024) and viral load based approaches (Hay et al. 2021), and epinowcast has been used to evaluate methods for nowcasting (Mellor et al. 2024).
+For example, scoringutils is widely used for evaluating forecast models across research fields, EpiNow2 has been used for comparative validation of methods like EpiFusion (Judge et al. 2024) and viral load based approaches (Hay et al. 2021), and epinowcast has been used to evaluate methods for nowcasting (Mellor et al. 2024).
 This cross-method validation is crucial for advancing epidemiological research.
 Other examples of research enabled by this ecosystem include real-time situational awareness during outbreaks and robust estimation of reporting delays in surveillance systems.
 
@@ -172,7 +172,7 @@ Our track record shows success in converting users to contributors (20+ for some
 Our central motivation in this project is to create more accessible and inclusive software that makes best practices in infectious disease modelling available to all researchers, regardless of background or resources.
 We are committed to fostering a welcoming and inclusive environment for contributors and users alike, where diverse voices are heard, valued, and empowered to both contribute to the project and use these tools in applied outbreak analysis.
 
-The epinowcast community already includes over 50 researchers globally, demonstrating our ability to foster inclusive collaboration across diverse geographical and institutional settings.
+The epinowcast community (https://community.epinowcast.org/) already includes over 50 researchers globally, demonstrating our ability to foster inclusive collaboration across diverse geographical and institutional settings.
 Core tools like epinowcast and EpiNow2 each have 20+ contributors from different backgrounds, showing our success in converting users into community members.
 Our onboarding initiatives aim to facilitate participation from under-represented groups, and we have successfully onboarded contributions from a wide range of individuals, irrespective of gender, ethnicity, or location.
 
@@ -186,6 +186,7 @@ The standardised interfaces and improved documentation resulting from this harmo
 Both team members actively promote inclusive research cultures.
 Sam has created an environment through the epinowcast community that nurtures early-career researchers through organising seminars, maintaining discussion forums, and coordinating collaborative development.
 Sebastian has led development of openly accessible training courses used by researchers worldwide for self-study, demonstrating commitment to removing educational barriers.
+He has also led initiatives for creating a more inclusive modelling community at LSHTM, for example by establishing a support network for early-career researchers.
 
 Our approach focuses on providing meaningful opportunities for growth with structured support tailored to individual needs and career stages.
 We are committed to continuously assessing and improving our EDIA efforts, guided by feedback from our community members and ensuring our unified governance structures embed these principles from inception.
@@ -218,7 +219,8 @@ We are committed to continuously assessing and improving our EDIA efforts, guide
 
 Our infectious disease modelling tools have achieved substantial impact, with over 100,000 downloads collectively and widespread adoption by major public health agencies including UKHSA, WHO, CDC, and ECDC for situational awareness and outbreak response.
 The ecosystem includes seven core packages spanning two organisations: epinowcast, primarycensored, baselinenowcast, and epidist within the epinowcast organisation, and EpiNow2, scoringutils, and socialmixr within the epiforecasts organisation.
-We have established contribution pathways with guides, forums, and support channels across both ecosystems, with core tools like epinowcast and EpiNow2 each having 20+ contributors, demonstrating our ability to convert users into community members.
+In addition, we have a number of packages, e.g. for epidemiological analysis or multi-model forecasting, that are at early or maturing stage and that, once matured, could be added to the core packages.
+We have some established contribution pathways with guides, forums, and support channels across both ecosystems, with core tools like epinowcast and EpiNow2 each having 20+ contributors, demonstrating our ability to convert users into community members.
 The epinowcast community includes over 50 researchers globally, providing a strong foundation for the community building activities proposed in this project.
 
 We have already demonstrated the technical feasibility of our unification approach through the development of primarycensored, which serves as a shared component providing backend functionality for primary event censored distributions.
@@ -230,17 +232,17 @@ By building upon the success of primarycensored and our established community ne
 
 #### Work Package 1: Creating a unified ecosystem
 
-This work package will establish a unified organizational structure that provides clear signposts for users while maintaining existing functionality and access.
-Sebastian will lead community consultation to guide naming and scope of the new organization.
-Based on consultation findings, we will establish a new GitHub organization that houses the unified ecosystem while ensuring all existing links to documentation and resources continue to work through maintained subsites and redirects.
+This work package will establish a unified organisational structure that provides clear signposts for users while maintaining existing functionality and access.
+Sebastian will lead community consultation to guide naming and scope of the new organisation.
+Based on consultation findings, we will establish a new GitHub organisation that houses the unified ecosystem while ensuring all existing links to documentation and resources continue to work through maintained subsites and redirects.
 
-The senior research software engineer will support merging CI tooling across both organizations to create consistent automated testing and deployment processes.
-We will rebrand existing forums and communication channels as needed to reflect the unified organization, ensuring seamless transitions for current community members.
-All organizational changes will be implemented with backward compatibility as a priority, maintaining existing package access while creating new unified entry points.
+The senior research software engineer will support merging CI tooling across both organisations to create consistent automated testing and deployment processes.
+We will rebrand existing forums and communication channels as needed to reflect the unified organisation, ensuring seamless transitions for current community members.
+All organisational changes will be implemented with backward compatibility as a priority, maintaining existing package access while creating new unified entry points.
 
 Sebastian will leverage his role on the WHO Collaboratory Technical Advisory Group to launch the unified ecosystem to broader international audiences.
 
-Expected outputs include, proposed organizational structure with community approval, established GitHub organization with unified CI infrastructure, rebranded community resources, maintained backward compatibility for all existing links, and successful launch through international public health networks.
+Expected outputs include, proposed organisational structure with community approval, established GitHub organisation with unified CI infrastructure, rebranded community resources, maintained backward compatibility for all existing links, and successful launch through international public health networks.
 
 #### Work Package 2: Standardising user interfaces
 
@@ -251,7 +253,7 @@ We will engage with the community through the developer meetings to understand w
 Building on the shared modules developed in WP 4, we will reuse successful interface patterns more widely across packages. The custom formula interface from epinowcast will be adapted for broader use, particularly in EpiNow2, creating better alignment between package interfaces while maintaining their distinct purposes. 
 Similarly we will adopt the distribution interface from EpiNow2 throughout the ecosystem.
 
-Central to this standardisation effort is adopting scoringutils data formats as the common input and output standard across all packages. scoringutils provides a proven data.table-based framework with standardised observed and predicted column requirements, type-specific validation functions, and extensible architecture already used by UKHSA, CDC, and ECDC.
+Central to this standardisation effort is adopting common input and output data format standards across all packages. This will build on and integrate functionality in the scoringutils which provides a proven data.table-based framework with standardised column requirements for observed or modelled quantities, type-specific validation functions already used by UKHSA, CDC, and ECDC. We will  integrate with efforts for creating data standards elsewhere (e.g. the hubverse.io community for collaborative multi-model platforms) to ensure broad usability.
 
 All interface changes will maintain backward compatibility through careful staging and testing. Community feedback will guide prioritisation of interface improvements.
 
@@ -261,7 +263,7 @@ Expected outputs include community consultation findings on interface preference
 
 This work package will establish formal governance structures for the unified ecosystem through a phased approach with  community consultation at each step.
 We will begin with community consultation using stakeholder mapping and user surveys to understand current governance challenges and identify sustainable governance models.
-Sam will lead this consultation process while Sebastian provides guidance on governance frameworks from his CMMID experience.
+Sam will lead this consultation process while Sebastian will provide guidance on governance frameworks from his CMMID experience.
 Based on consultation findings, we will develop a governance proposal addressing coordination, decision-making processes, and community participation mechanisms.
 The proposal will then undergo community feedback through our forum, developer meetings, and the develop er workshop, with refinements based on input from users, contributors, and partner organisations.
 Finally, we will implement the accepted governance structure.
@@ -272,7 +274,7 @@ Expected outputs include stakeholder analysis, consultation report, governance p
 
 This work package will identify and extract shared components across packages to reduce the maintenance burden and improve functionality.
 Sam will lead this work with support from the senior research software engineer to implement the modular extraction and integration processes.
-The first priority is completing the full integration of primarycensored into epinowcast and EpiNow2 packages, building on our template approach from the epidist integration.
+The first priority is completing the full integration of primarycensored into epinowcast and EpiNow2 packages, building on our template approach from previous epidist integration.
 
 Following primarycensored integration, we will identify and extract additional shared modules including the custom distribution interface in EpiNow2 and the custom formula interface in epinowcast, creating independent modules that can be reused across the ecosystem.
 Further opportunities include extracting reporting formatting functionality from EpiNow2 to create package-independent reporting modules that can be used across the ecosystem.
@@ -283,7 +285,7 @@ All module extraction will maintain backward compatibility to preserve existing 
 We will follow a staged integration approach, testing each shared component thoroughly before expanding to additional packages.
 In this work package we will also focus on ongoing maintenance of the ecosystem, addressing technical debt through regular bug fixes, dependency updates, and compatibility maintenance to ensure sustained operation.
 
-Expected outputs include completed primarycensored integration across epinowcast and EpiNow2, extracted and independent distribution and formula interface modules, standardized scoringutils data formats adopted across packages, a package-independent reporting module, and maintained backward compatibility with comprehensive testing of all integrated components.
+Expected outputs include completed primarycensored integration across epinowcast and EpiNow2, extracted and independent distribution and formula interface modules, standardised data formats adopted across packages, a package-independent reporting module, and maintained backward compatibility with comprehensive testing of all integrated components.
 
 #### Work Package 5: Building community capacity
 
