@@ -304,68 +304,6 @@ The project will run over 24 months with work packages operating in parallel, st
 
 Our timeline has four phases in Year one: Foundation, Development, Implementation, and Consolidation. Followed by four phases in Year two: Refinement, Integration, Community, and Sustainability. Each phase builds on previous work while maintaining parallel progress across work packages. Detailed timing dependencies and milestones are shown in the accompanying Gantt chart.
 
-**Year 1**
-
-*Q1 (Months 1-3): Foundation Phase*
-- Project setup: Senior research software engineer recruitment and onboarding
-- Project setup: Establish baseline metrics for tracking progress across all dimensions
-- WP1: Community consultation on unified organization structure and naming
-- WP2: User and developer interface preference surveys through forums and meetings
-- WP3: Stakeholder mapping and governance model research
-- WP4: Complete primarycensored integration into epinowcast and EpiNow2
-- WP5: Assessment of current documentation gaps and community needs
-
-*Q2 (Months 4-6): Development Phase*
-- WP1: Establish new GitHub organization with unified CI infrastructure
-- WP2: Begin scoringutils data format adoption across packages
-- WP3: Develop governance proposal based on consultation findings
-- WP4: Extract custom distribution interface from EpiNow2
-- WP5: Begin documentation improvements across packages
-
-*Q3 (Months 7-9): Implementation Phase*
-- WP1: Rebrand community resources and implement unified entry points
-- WP2: Begin interface pattern standardization across packages
-- WP3: Community feedback on governance proposal through forums and meetings
-- WP4: Extract custom formula interface from epinowcast
-- WP5: Developer onboarding workshop delivery
-
-*Q4 (Months 10-12): Consolidation Phase*
-- WP1: Launch unified ecosystem through WHO Collaboratory networks
-- WP2: Adapt epinowcast formula interface for broader ecosystem use
-- WP3: Implement accepted governance structure with documentation
-- WP4: Begin extraction of reporting formatting modules from EpiNow2
-- WP5: Enhanced forum infrastructure and communication tools
-
-**Year 2**
-
-*Q1 (Months 13-15): Refinement Phase*
-- WP1: Evaluate organizational structure effectiveness and adjust as needed
-- WP2: Finalize standardized input/output patterns across all packages
-- WP3: Operationalize governance systems with community participation
-- WP4: Complete package-independent reporting module development
-- WP5: Develop tiered documentation from beginner to advanced levels
-
-*Q2 (Months 16-18): Integration Phase*
-- WP1: Ensure seamless transitions and backward compatibility maintenance
-- WP2: Complete ecosystem-wide scoringutils data format implementation
-- WP3: Monitor governance effectiveness and community engagement
-- WP4: Final testing and integration of all shared components
-- WP5: Improve contribution guides and onboarding materials
-
-*Q3 (Months 19-21): Community Phase*
-- WP1: Final organizational adjustments based on user feedback
-- WP2: Community-driven prioritization of remaining interface improvements
-- WP3: Document governance processes and decision-making frameworks
-- WP4: Community feedback integration for shared component priorities
-- WP5: User training and onboarding workshop delivery
-
-*Q4 (Months 22-24): Sustainability Phase*
-- WP1: Establish long-term organizational maintenance plans
-- WP2: Implement interface improvements identified in community phase
-- WP3: Transition to community-led governance operations
-- WP4: Final validation and testing of all integrated shared components
-- WP5: Measure community engagement outcomes and complete academic paper
-
 ### Translation Strategy
 
 Our approach to maximising translation of outputs into outcomes and impacts leverages established networks and proven engagement strategies.
@@ -497,7 +435,7 @@ Professor Sebastian Funk will provide strategic guidance at fractional FTE.
 As Director of the CMMID at LSHTM, Sebastian brings leadership experience and public health networks essential for stakeholder engagement and ensuring alignment with research community needs.
 
 The team will include a senior research software engineer who will implement technical aspects of unification, interface standardisation, and code deduplication.
-This role is necessary because harmonising complex R packages with Stan backends requires specialist expertise in software architecture and statistical computing frameworks.
+This senior role is necessary because harmonising complex R packages with Stan backends requires specialist expertise in software architecture and statistical computing frameworks.
 
 The project includes two targeted workshops: one for onboarding new developers and another for training users.
 These workshops represent necessary investments in building sustainable contributor communities and ensuring effective adoption of the harmonised ecosystem.
@@ -506,20 +444,28 @@ Workshop costs cover venue, materials, and facilitation expenses for bringing to
 ## Total funding requested
 
 ## Directly incurred - staff 
+244,179
 
 ## Directly incurred - Travel and Subsistence
+4,000
 
 ## Directly incurred - Other
+26,667
 
 ## Directly allocated - Staff
+16,661
 
 ## Directly allocated - Estates
+0
 
 ## Directly allocated - Other
+0
 
 ## Indirects
+192,420
 
 ## Exceptions
+0
 
 ## Budget
 
