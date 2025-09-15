@@ -274,7 +274,7 @@ Expected outputs include stakeholder analysis, consultation report, governance p
 
 This work package will identify and extract shared components across packages to reduce the maintenance burden and improve functionality.
 Sam will lead this work with support from the senior research software engineer to implement the modular extraction and integration processes.
-The first priority is completing the full integration of primarycensored into epinowcast and EpiNow2 packages, building on our template approach from previous epidist integration.
+The first priority is completing the full integration of primarycensored into epinowcast and EpiNow2 packages, building on our template approach from the successful epidist integration where primarycensored now provides the backend model infrastructure for delay distribution estimation.
 
 Following primarycensored integration, we will identify and extract additional shared modules including the custom distribution interface in EpiNow2 and the custom formula interface in epinowcast, creating independent modules that can be reused across the ecosystem.
 Further opportunities include extracting reporting formatting functionality from EpiNow2 to create package-independent reporting modules that can be used across the ecosystem.
