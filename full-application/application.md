@@ -441,7 +441,12 @@ The project includes two targeted workshops: one for onboarding new developers a
 These workshops represent necessary investments in building sustainable contributor communities and ensuring effective adoption of the harmonised ecosystem.
 Workshop costs cover venue, materials, and facilitation expenses for bringing together developers and users to establish contribution pathways and transfer knowledge about the unified tools.
 
+Additional costs include dedicated project management support to coordinate activities across work packages and ensure delivery milestones are met.
+Annual conference travel enables team members to present project outcomes at key conferences, facilitating knowledge transfer and community engagement with the broader research software and epidemiology communities.
+Equipment costs include a laptop for the senior research software engineer, essential for development work.
+
 ## Total funding requested
+486,594
 
 ## Directly incurred - staff 
 244,179
@@ -450,7 +455,7 @@ Workshop costs cover venue, materials, and facilitation expenses for bringing to
 4,000
 
 ## Directly incurred - Other
-26,667
+29,334
 
 ## Directly allocated - Staff
 16,661
