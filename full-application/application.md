@@ -102,17 +102,14 @@ The harmonised ecosystem will enable more robust outbreak response capabilities 
 Researchers use our tools for methodological comparison and validation.
 For example, scoringutils is widely used for evaluating forecast models across research fields, EpiNow2 has been used for comparative validation of methods like EpiFusion (Judge et al. 2024) and viral load based approaches (Hay et al. 2021), and epinowcast has been used to evaluate methods for nowcasting (Mellor et al. 2024).
 This cross-method validation is crucial for advancing epidemiological research.
-Other examples of research enabled by this ecosystem include real-time situational awareness during outbreaks and robust estimation of reporting delays in surveillance systems.
 
 The ecosystem currently lacks clear governance and contribution pathways that would allow it to onboard new developers and evolve to match user needs.
 Establishing formal governance structures for the unified ecosystem will support sustainable maintenance, facilitate decision making, and enable broader community participation.
-We have established some contribution pathways with guides, forums, and support channels across both ecosystems, demonstrating our capacity to scale the community further through improved governance and documentation.
+We have established some contribution pathways with guides, forums, and support channels across both ecosystems, demonstrating our capacity to scale the community further.
 By improving contribution guides and onboarding materials, we will expand our contributor pool and distribute maintenance responsibility across a wider community.
 
-Creating a single entry point for packages across both organisations will provide clear signposts for users, while standardising user interfaces will enable consistent, intuitive interactions.
-By simplifying the handling of complex surveillance data, our tools make sophisticated modelling more accessible, allowing researchers to focus more on epidemiological questions than data challenges.
-The project aligns with key UK research priorities around pandemic preparedness, health data science infrastructure, and methodological innovation, enabling more efficient knowledge transfer between research groups and institutions through reduced duplication and inconsistencies.
-By creating a coherent ecosystem with standardised interfaces and unified governance structures, this project will advance good practice in research software development, and help to establish methodological and technical standards.
+Creating a single entry point and standardised interfaces will provide clear signposts for users and make sophisticated modelling more accessible.
+This project is aligned with key UK research priorities around pandemic preparedness, health data science infrastructure, and methodological innovation and will advance good practice in research software development and establish methodological standards.
 
 ## Objectives
 
@@ -153,7 +150,7 @@ We are well positioned to grow these communities, but without seed funding this 
 
 We are not aware of other funding sources that specifically target governance improvement and harmonisation work across research software ecosystems.
 We previously applied for Chan Zuckerberg Essential Software grants, but these appear to no longer be available.
-Existing research funding (including our work in the Modelling and Analytics Health Protection and Research Unit (HPRU)) supports methodological development but does not extend to dedicated software maintenance, harmonisation, and community governance that is central to this proposal.
+Existing research funding supports methodological development but not dedicated software maintenance, harmonisation, and community governance that is central to this proposal.
 The RSMF provides an opportunity to address sustainability challenges that fall outside traditional research funding remits.
 
 Most work in this grant focuses on reducing technical debt, harmonising interfaces, and establishing ecosystem governance, all of which create foundations for long-term sustainability.
@@ -161,7 +158,7 @@ As part of the HPRU Modelling and Analytics (with Sebastian as lead and Sam as c
 The formal governance structures and improved contribution pathways established through this project will facilitate similar contributions from other researchers and public health users.
 
 By creating a unified roadmap and governance framework, we will position the ecosystem to attract future funding opportunities and ensure maintenance responsibility is distributed across a broader, more sustainable community.
-Our track record shows success in converting users to contributors (20+ for some packages), and the community expansion activities will scale this approach across the unified ecosystem.
+Our track record shows success in converting users to contributors, and the community expansion activities will scale this approach across the unified ecosystem.
 
 ## EDIA
 
@@ -234,7 +231,7 @@ By building upon the success of primarycensored and our established community ne
 
 This work package will establish a unified organisational structure that provides clear signposts for users while maintaining existing functionality and access.
 Sebastian will lead community consultation to guide naming and scope of the new organisation.
-Based on consultation findings, we will establish a new GitHub organisation that houses the unified ecosystem while ensuring all existing links to documentation and resources continue to work through maintained subsites and redirects.
+Based on consultation findings, we will establish a new GitHub organisation that houses the unified ecosystem while maintaining existing links.
 
 The senior research software engineer will support merging CI tooling across both organisations to create consistent automated testing and deployment processes.
 We will rebrand existing forums and communication channels as needed to reflect the unified organisation, ensuring seamless transitions for current community members.
@@ -242,7 +239,7 @@ All organisational changes will be implemented with backward compatibility as a 
 
 Sebastian will leverage his role on the WHO Collaboratory Technical Advisory Group to launch the unified ecosystem to broader international audiences.
 
-Expected outputs include, proposed organisational structure with community approval, established GitHub organisation with unified CI infrastructure, rebranded community resources, maintained backward compatibility for all existing links, and successful launch through international public health networks.
+Expected outputs include organisational structure, GitHub organisation with unified CI, rebranded resources, and maintained compatibility.
 
 #### Work Package 2: Standardising user interfaces
 
@@ -257,7 +254,7 @@ Central to this standardisation effort is adopting common input and output data 
 
 All interface changes will maintain backward compatibility through careful staging and testing. Community feedback will guide prioritisation of interface improvements.
 
-Expected outputs include community consultation findings on interface preferences, adapted formula interfaces across packages, standardised scoringutils data formats implemented ecosystem-wide, consistent input/output patterns across all packages, and maintained backward compatibility with existing workflows.
+Expected outputs include consultation findings, adapted interfaces across packages, standardised data formats, and maintained backward compatibility.
 
 #### Work Package 3: Establishing formal governance structures
 
@@ -265,10 +262,10 @@ This work package will establish formal governance structures for the unified ec
 We will begin with community consultation using stakeholder mapping and user surveys to understand current governance challenges and identify sustainable governance models.
 Sam will lead this consultation process while Sebastian will provide guidance on governance frameworks from his CMMID experience.
 Based on consultation findings, we will develop a governance proposal addressing coordination, decision-making processes, and community participation mechanisms.
-The proposal will then undergo community feedback through our forum, developer meetings, and the develop er workshop, with refinements based on input from users, contributors, and partner organisations.
+The proposal will undergo community feedback through our forum, developer meetings, and the developer workshop, with refinements based on input from users and contributors.
 Finally, we will implement the accepted governance structure.
 As part of establishing formal governance, we will pursue becoming an affiliated NumFocus project to provide fiscal sponsorship and institutional support for the ecosystem.
-Expected outputs include stakeholder analysis, consultation report, governance proposal, community feedback report, operational governance systems with documentation, and NumFocus affiliation application.
+Expected outputs include stakeholder analysis, governance proposal, community feedback report, and NumFocus affiliation application.
 
 #### Work Package 4: Reducing code duplication
 
@@ -285,7 +282,7 @@ All module extraction will maintain backward compatibility to preserve existing 
 We will follow a staged integration approach, testing each shared component thoroughly before expanding to additional packages.
 In this work package we will also focus on ongoing maintenance of the ecosystem, addressing technical debt through regular bug fixes, dependency updates, and compatibility maintenance to ensure sustained operation.
 
-Expected outputs include completed primarycensored integration across epinowcast and EpiNow2, extracted and independent distribution and formula interface modules, standardised data formats adopted across packages, a package-independent reporting module, and maintained backward compatibility with comprehensive testing of all integrated components.
+Expected outputs include primarycensored integration, extracted interface modules, standardised data formats, and maintained backward compatibility.
 
 #### Work Package 5: Building community capacity
 
@@ -295,22 +292,20 @@ We will deliver two targeted workshops: a developer onboarding workshop focused 
 The senior research software engineer will lead comprehensive documentation improvements across all packages, developing tiered documentation from beginner to advanced levels.
 This documentation will support both using the ecosystem but also provide guidance as to how to adapt it and how to make contributions.
 Sam will support this documentation work and ensure alignment with the user needs identified through community consultation.
-Additionally, we will enhance communication infrastructure including forum improvements and monthly virtual developer meetings led by the senior research software engineer that cover design philosophy, R package development, Stan development, Git/GitHub skills, and unit testing.
-We will support the development of community packages like hashprng and coerceDt as resources allow, aiming to onboard at least 3 community packages throughout the grant.
+Additionally, we will enhance communication infrastructure including forum improvements and monthly virtual developer meetings led by the senior research software engineer that cover development skills and testing.
+We will support the development of community packages as resources allow, aiming to onboard at least 3 community packages throughout the grant.
 We will also increase activity on our community sites and blogs, particularly improving the newcomer experience.
 
-Expected outputs include two delivered workshops with diverse participation, unified documentation across packages, improved contribution guides and onboarding materials, enhanced community forums and communication tools, academic paper documenting the unified ecosystem approach, and measurable increases in contributor diversity and engagement across the ecosystem.
+Expected outputs include two workshops, unified documentation, improved contribution guides, enhanced forums, and measurable increases in contributor diversity.
 
 ### Timeline and Work Plan
 
-The project will run over 24 months with work packages operating in parallel, structured in quarterly phases to ensure systematic progress and coordination across activities.
-
-Our timeline has four phases in Year one: Foundation, Development, Implementation, and Consolidation. Followed by four phases in Year two: Refinement, Integration, Community, and Sustainability. Each phase builds on previous work while maintaining parallel progress across work packages. Detailed timing dependencies and milestones are shown in the accompanying Gantt chart.
+The 24-month project operates through quarterly phases: Foundation, Development, Implementation, Consolidation (Year 1); Refinement, Integration, Community, Sustainability (Year 2). Detailed timing dependencies are shown in the accompanying Gantt chart.
 
 ### Translation Strategy
 
 Our approach to maximising translation of outputs into outcomes and impacts leverages established networks and proven engagement strategies.
-Through our roles in the HPRU Modelling and Analytics, we will ensure project outputs directly inform ongoing collaborative research with PhD students and postdocs, facilitating immediate integration into academic workflows and policy-relevant research.
+Through our roles in the HPRU Modelling and Analytics, we will ensure project outputs directly inform ongoing collaborative research with PhD students and postdocs, facilitating integration into research.
 The targeted workshops for developers and users will serve as key knowledge transfer mechanisms, bringing together diverse stakeholders to establish contribution pathways and transfer knowledge about unified tools.
 Our community forums and regular engagement meetings provide sustained channels for user feedback and adoption support.
 By maintaining direct collaboration with public health agencies who currently use these tools operationally (UKHSA, WHO, CDC, ECDC), we ensure outputs remain fit for purpose and achieve real-world impact in outbreak response and surveillance activities across diverse global settings.
@@ -331,7 +326,7 @@ We will establish baseline measurements at project start, building on our existi
 We have established substantial technical and community infrastructure that provides a strong foundation for this project, though formal governance remains a key area for improvement.
 Our packages benefit from centralised CI infrastructure that prevents development from breaking functionality, with automated testing systems in place across both organisations.
 The ecosystem includes active forums for user support, organisational websites (epinowcast.org, epiforecasts.io) with linked package subsites, and regular community seminars that facilitate knowledge transfer.
-We have also created open teaching materials including freely available training courses on model fitting and nowcasting which we will be able to use to communicate the work in this project.
+We have also created open teaching materials.
 However, while we have established open development practices with transparent contribution guidelines and code review processes across both ecosystems, the current governance structure remains largely informal and fragmented across two organisations.
 Establishing formal governance structures for unified decision making, sustainable maintenance coordination, and broader community participation represents a major aim of this grant.
 
@@ -344,8 +339,8 @@ However, this challenge is precisely why we need dedicated time and resources th
 Writing effective onboarding materials for diverse user backgrounds presents complexity challenges, but we will mitigate this by engaging with our existing user base to understand what works across different skill levels and institutional contexts, using iterative feedback to ensure materials serve a wide range of users effectively.
 
 Workshop representativeness and broader community engagement present ongoing challenges for ensuring inclusive participation across diverse institutions, career stages, and geographical settings.
-We will address these risks by leveraging Sebastian's extensive networks through international public health collaborations (UKHSA, WHO, CDC, ECDC) and his membership in organisations like Juniper to ensure diverse workshop participation.
-Our established community engagement approach through forums, GitHub support, and regular community meetings provides multiple channels for sustained user feedback and adoption support, while maintaining direct operational collaboration with public health agencies who currently use these tools ensures outputs remain fit for purpose and achieve real-world impact across diverse global settings.
+We will address these risks by leveraging Sebastian's extensive networks through international public health collaborations and his membership in organisations like Juniper to ensure diverse workshop participation.
+Our established community engagement approach through forums and regular meetings provides sustained user feedback and adoption support, while maintaining collaboration with public health agencies ensures outputs remain fit for purpose.
 
 # Capability to deliver
 
