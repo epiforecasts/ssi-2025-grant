@@ -169,23 +169,19 @@ Our track record shows success in converting users to contributors, and the comm
 Our central motivation in this project is to create more accessible and inclusive software that makes best practices in infectious disease modelling available to all researchers, regardless of background or resources.
 We are committed to fostering a welcoming and inclusive environment for contributors and users alike, where diverse voices are heard, valued, and empowered to both contribute to the project and use these tools in applied outbreak analysis.
 
-The epinowcast community (https://community.epinowcast.org/) already includes over 50 researchers globally, demonstrating our ability to foster inclusive collaboration across diverse geographical and institutional settings.
-Core tools like epinowcast and EpiNow2 each have 20+ contributors from different backgrounds, showing our success in converting users into community members.
 Our onboarding initiatives aim to facilitate participation from under-represented groups, and we have successfully onboarded contributions from a wide range of individuals, irrespective of gender, ethnicity, or location.
 
 Through this project, we will strengthen community diversity by improving contribution guides and onboarding materials specifically designed to support individuals from diverse backgrounds, particularly those who are under-represented or from low-resource settings.
-The planned workshops for developers and users will actively seek to include participants from diverse institutions and career stages, with particular attention to supporting early-career researchers and those from under-represented groups.
+The planned workshops will target participants from diverse institutions and career stages.
 
-By using entirely open-source, publicly available, and free-of-cost platforms such as GitHub and R, we ensure opportunities within our software development processes are available to anyone.
+By using open-source and free platforms such as GitHub and R, we ensure opportunities within our software development processes are available to anyone.
 Our approach of simplifying the handling of complex surveillance data makes sophisticated modelling more accessible, allowing researchers to focus on epidemiological questions rather than technical barriers.
 The standardised interfaces and improved documentation resulting from this harmonisation project will reduce technical barriers to adoption, particularly benefiting researchers with limited computational resources or training.
 
 Both team members actively promote inclusive research cultures.
-Sam has created an environment through the epinowcast community that nurtures early-career researchers through organising seminars, maintaining discussion forums, and coordinating collaborative development.
-Sebastian has led development of openly accessible training courses used by researchers worldwide for self-study, demonstrating commitment to removing educational barriers.
-He has also led initiatives for creating a more inclusive modelling community at LSHTM, for example by establishing a support network for early-career researchers.
+Sam nurtures early-career researchers through the epinowcast community, whilst Sebastian has led development of openly accessible training courses used worldwide and initiatives for creating a more inclusive modelling community at LSHTM.
 
-Our approach focuses on providing meaningful opportunities for growth with structured support tailored to individual needs and career stages.
+Our approach focuses on providing meaningful opportunities for growth with structured support tailored to individual needs.
 We are committed to continuously assessing and improving our EDIA efforts, guided by feedback from our community members and ensuring our unified governance structures embed these principles from inception.
 
 # Approach
